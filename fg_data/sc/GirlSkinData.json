@@ -3,6 +3,7 @@
         "GirlId": 1,
         "Skin": 1,
         "SkinName": "2237",
+        "Access": "",
         "SkillArray": [
             [
                 10101,
@@ -38,6 +39,14 @@
             21010010,
             23010010
         ],
+        "LikabilitySpeech": 7,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                10105,
+                1
+            ]
+        ],
         "ID": 101,
         "Name": null
     },
@@ -45,6 +54,7 @@
         "GirlId": 2,
         "Skin": 1,
         "SkinName": "2246",
+        "Access": "",
         "SkillArray": [
             [
                 20101,
@@ -79,6 +89,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 201,
         "Name": null
     },
@@ -86,6 +99,7 @@
         "GirlId": 3,
         "Skin": 1,
         "SkinName": "2247",
+        "Access": "",
         "SkillArray": [
             [
                 30101,
@@ -120,6 +134,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 7,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 301,
         "Name": null
     },
@@ -127,6 +144,7 @@
         "GirlId": 4,
         "Skin": 1,
         "SkinName": "2248",
+        "Access": "",
         "SkillArray": [
             [
                 40101,
@@ -162,6 +180,9 @@
             21010040,
             23010040
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 401,
         "Name": null
     },
@@ -169,6 +190,7 @@
         "GirlId": 5,
         "Skin": 1,
         "SkinName": "2249",
+        "Access": "",
         "SkillArray": [
             [
                 50101,
@@ -203,6 +225,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 501,
         "Name": null
     },
@@ -210,6 +235,7 @@
         "GirlId": 6,
         "Skin": 1,
         "SkinName": "2250",
+        "Access": "",
         "SkillArray": [
             [
                 60101,
@@ -244,6 +270,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 601,
         "Name": null
     },
@@ -251,6 +280,7 @@
         "GirlId": 7,
         "Skin": 1,
         "SkinName": "2251",
+        "Access": "",
         "SkillArray": [
             [
                 70101,
@@ -285,6 +315,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 701,
         "Name": null
     },
@@ -292,6 +325,7 @@
         "GirlId": 8,
         "Skin": 1,
         "SkinName": "2252",
+        "Access": "",
         "SkillArray": [
             [
                 80101,
@@ -327,6 +361,9 @@
             21010090,
             23010090
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 801,
         "Name": null
     },
@@ -334,6 +371,7 @@
         "GirlId": 9,
         "Skin": 1,
         "SkinName": "2253",
+        "Access": "",
         "SkillArray": [
             [
                 90101,
@@ -368,6 +406,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 901,
         "Name": null
     },
@@ -375,6 +416,7 @@
         "GirlId": 10,
         "Skin": 1,
         "SkinName": "2254",
+        "Access": "",
         "SkillArray": [
             [
                 100101,
@@ -409,6 +451,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1001,
         "Name": null
     },
@@ -416,6 +461,7 @@
         "GirlId": 11,
         "Skin": 1,
         "SkinName": "2255",
+        "Access": "",
         "SkillArray": [
             [
                 110101,
@@ -451,6 +497,9 @@
             21010080,
             23010080
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1101,
         "Name": null
     },
@@ -458,6 +507,7 @@
         "GirlId": 12,
         "Skin": 1,
         "SkinName": "2238",
+        "Access": "",
         "SkillArray": [
             [
                 120101,
@@ -492,6 +542,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1201,
         "Name": null
     },
@@ -499,6 +552,7 @@
         "GirlId": 13,
         "Skin": 1,
         "SkinName": "2256",
+        "Access": "",
         "SkillArray": [
             [
                 130101,
@@ -534,6 +588,9 @@
             21010050,
             23010050
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1301,
         "Name": null
     },
@@ -541,6 +598,7 @@
         "GirlId": 14,
         "Skin": 1,
         "SkinName": "2257",
+        "Access": "",
         "SkillArray": [
             [
                 140101,
@@ -575,6 +633,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1401,
         "Name": null
     },
@@ -582,6 +643,7 @@
         "GirlId": 15,
         "Skin": 1,
         "SkinName": "2258",
+        "Access": "",
         "SkillArray": [
             [
                 150101,
@@ -616,6 +678,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1501,
         "Name": null
     },
@@ -623,6 +688,7 @@
         "GirlId": 16,
         "Skin": 1,
         "SkinName": "2259",
+        "Access": "",
         "SkillArray": [
             [
                 160101,
@@ -657,6 +723,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1601,
         "Name": null
     },
@@ -664,6 +733,7 @@
         "GirlId": 17,
         "Skin": 1,
         "SkinName": "2260",
+        "Access": "",
         "SkillArray": [
             [
                 170101,
@@ -698,6 +768,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1701,
         "Name": null
     },
@@ -705,6 +778,7 @@
         "GirlId": 18,
         "Skin": 1,
         "SkinName": "2261",
+        "Access": "",
         "SkillArray": [
             [
                 180101,
@@ -739,6 +813,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1801,
         "Name": null
     },
@@ -746,6 +823,7 @@
         "GirlId": 19,
         "Skin": 1,
         "SkinName": "2262",
+        "Access": "",
         "SkillArray": [
             [
                 190101,
@@ -780,6 +858,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1901,
         "Name": null
     },
@@ -787,6 +868,7 @@
         "GirlId": 20,
         "Skin": 1,
         "SkinName": "2263",
+        "Access": "",
         "SkillArray": [
             [
                 200101,
@@ -822,6 +904,9 @@
             21010020,
             23010020
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2001,
         "Name": null
     },
@@ -829,6 +914,7 @@
         "GirlId": 21,
         "Skin": 1,
         "SkinName": "2264",
+        "Access": "",
         "SkillArray": [
             [
                 210101,
@@ -864,6 +950,9 @@
             21010150,
             23010150
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2101,
         "Name": null
     },
@@ -871,6 +960,7 @@
         "GirlId": 22,
         "Skin": 1,
         "SkinName": "2265",
+        "Access": "",
         "SkillArray": [
             [
                 220101,
@@ -905,6 +995,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2201,
         "Name": null
     },
@@ -912,6 +1005,7 @@
         "GirlId": 23,
         "Skin": 1,
         "SkinName": "2266",
+        "Access": "",
         "SkillArray": [
             [
                 230101,
@@ -946,6 +1040,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2301,
         "Name": null
     },
@@ -953,6 +1050,7 @@
         "GirlId": 24,
         "Skin": 1,
         "SkinName": "2267",
+        "Access": "",
         "SkillArray": [
             [
                 240101,
@@ -988,6 +1086,9 @@
             21010030,
             23010030
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2401,
         "Name": null
     },
@@ -995,6 +1096,7 @@
         "GirlId": 25,
         "Skin": 1,
         "SkinName": "2268",
+        "Access": "",
         "SkillArray": [
             [
                 250101,
@@ -1029,6 +1131,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2501,
         "Name": null
     },
@@ -1036,6 +1141,7 @@
         "GirlId": 26,
         "Skin": 1,
         "SkinName": "2269",
+        "Access": "",
         "SkillArray": [
             [
                 260101,
@@ -1070,6 +1176,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2601,
         "Name": null
     },
@@ -1077,6 +1186,7 @@
         "GirlId": 27,
         "Skin": 1,
         "SkinName": "2270",
+        "Access": "",
         "SkillArray": [
             [
                 270101,
@@ -1111,6 +1221,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2701,
         "Name": null
     },
@@ -1118,6 +1231,7 @@
         "GirlId": 28,
         "Skin": 1,
         "SkinName": "2239",
+        "Access": "",
         "SkillArray": [
             [
                 280101,
@@ -1152,6 +1266,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2801,
         "Name": null
     },
@@ -1159,6 +1276,7 @@
         "GirlId": 29,
         "Skin": 1,
         "SkinName": "2240",
+        "Access": "",
         "SkillArray": [
             [
                 290101,
@@ -1194,6 +1312,9 @@
             21010070,
             23010070
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2901,
         "Name": null
     },
@@ -1201,6 +1322,7 @@
         "GirlId": 30,
         "Skin": 1,
         "SkinName": "2241",
+        "Access": "",
         "SkillArray": [
             [
                 300101,
@@ -1235,6 +1357,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3001,
         "Name": null
     },
@@ -1242,6 +1367,7 @@
         "GirlId": 31,
         "Skin": 1,
         "SkinName": "2271",
+        "Access": "",
         "SkillArray": [
             [
                 310101,
@@ -1277,6 +1403,14 @@
             21010060,
             23010060
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                310105,
+                1
+            ]
+        ],
         "ID": 3101,
         "Name": null
     },
@@ -1284,6 +1418,7 @@
         "GirlId": 32,
         "Skin": 1,
         "SkinName": "2272",
+        "Access": "",
         "SkillArray": [
             [
                 320101,
@@ -1319,6 +1454,9 @@
             21010170,
             23010170
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3201,
         "Name": null
     },
@@ -1326,6 +1464,7 @@
         "GirlId": 33,
         "Skin": 1,
         "SkinName": "1178",
+        "Access": "",
         "SkillArray": [
             [
                 330101,
@@ -1361,6 +1500,9 @@
             21010240,
             23010240
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3301,
         "Name": null
     },
@@ -1368,6 +1510,7 @@
         "GirlId": 34,
         "Skin": 1,
         "SkinName": "2799",
+        "Access": "",
         "SkillArray": [
             [
                 340101,
@@ -1402,6 +1545,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3401,
         "Name": null
     },
@@ -1409,6 +1555,7 @@
         "GirlId": 35,
         "Skin": 1,
         "SkinName": "2273",
+        "Access": "",
         "SkillArray": [
             [
                 350101,
@@ -1444,6 +1591,14 @@
             21010310,
             23010310
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                350105,
+                1
+            ]
+        ],
         "ID": 3501,
         "Name": null
     },
@@ -1451,6 +1606,7 @@
         "GirlId": 36,
         "Skin": 1,
         "SkinName": "2274",
+        "Access": "",
         "SkillArray": [
             [
                 360101,
@@ -1486,6 +1642,9 @@
             21010370,
             23010370
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3601,
         "Name": null
     },
@@ -1493,6 +1652,7 @@
         "GirlId": 37,
         "Skin": 1,
         "SkinName": "2275",
+        "Access": "",
         "SkillArray": [
             [
                 370101,
@@ -1527,6 +1687,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3701,
         "Name": null
     },
@@ -1534,6 +1697,7 @@
         "GirlId": 38,
         "Skin": 1,
         "SkinName": "2276",
+        "Access": "",
         "SkillArray": [
             [
                 380101,
@@ -1568,6 +1732,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3801,
         "Name": null
     },
@@ -1575,6 +1742,7 @@
         "GirlId": 39,
         "Skin": 1,
         "SkinName": "2277",
+        "Access": "",
         "SkillArray": [
             [
                 390101,
@@ -1610,6 +1778,9 @@
             21010110,
             23010110
         ],
+        "LikabilitySpeech": 3,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3901,
         "Name": null
     },
@@ -1617,6 +1788,7 @@
         "GirlId": 40,
         "Skin": 1,
         "SkinName": "2278",
+        "Access": "",
         "SkillArray": [
             [
                 400101,
@@ -1651,6 +1823,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4001,
         "Name": null
     },
@@ -1658,6 +1833,7 @@
         "GirlId": 41,
         "Skin": 1,
         "SkinName": "2279",
+        "Access": "",
         "SkillArray": [
             [
                 410101,
@@ -1692,6 +1868,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4101,
         "Name": null
     },
@@ -1699,6 +1878,7 @@
         "GirlId": 42,
         "Skin": 1,
         "SkinName": "2280",
+        "Access": "",
         "SkillArray": [
             [
                 420101,
@@ -1733,6 +1913,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4201,
         "Name": null
     },
@@ -1740,6 +1923,7 @@
         "GirlId": 43,
         "Skin": 1,
         "SkinName": "2281",
+        "Access": "",
         "SkillArray": [
             [
                 430101,
@@ -1775,6 +1959,9 @@
             21010190,
             23010190
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4301,
         "Name": null
     },
@@ -1782,6 +1969,7 @@
         "GirlId": 44,
         "Skin": 1,
         "SkinName": "2282",
+        "Access": "",
         "SkillArray": [
             [
                 440101,
@@ -1816,6 +2004,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4401,
         "Name": null
     },
@@ -1823,6 +2014,7 @@
         "GirlId": 46,
         "Skin": 1,
         "SkinName": "2283",
+        "Access": "",
         "SkillArray": [
             [
                 460101,
@@ -1857,6 +2049,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4601,
         "Name": null
     },
@@ -1864,6 +2059,7 @@
         "GirlId": 48,
         "Skin": 1,
         "SkinName": "2284",
+        "Access": "",
         "SkillArray": [
             [
                 480101,
@@ -1898,6 +2094,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4801,
         "Name": null
     },
@@ -1905,6 +2104,7 @@
         "GirlId": 49,
         "Skin": 1,
         "SkinName": "2285",
+        "Access": "",
         "SkillArray": [
             [
                 490101,
@@ -1939,6 +2139,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4901,
         "Name": null
     },
@@ -1946,6 +2149,7 @@
         "GirlId": 50,
         "Skin": 1,
         "SkinName": "2286",
+        "Access": "",
         "SkillArray": [
             [
                 500101,
@@ -1980,6 +2184,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5001,
         "Name": null
     },
@@ -1987,6 +2194,7 @@
         "GirlId": 53,
         "Skin": 1,
         "SkinName": "2287",
+        "Access": "",
         "SkillArray": [
             [
                 530101,
@@ -2021,6 +2229,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5301,
         "Name": null
     },
@@ -2028,6 +2239,7 @@
         "GirlId": 55,
         "Skin": 1,
         "SkinName": "2288",
+        "Access": "",
         "SkillArray": [
             [
                 550101,
@@ -2063,6 +2275,9 @@
             21010100,
             23010100
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5501,
         "Name": null
     },
@@ -2070,6 +2285,7 @@
         "GirlId": 57,
         "Skin": 1,
         "SkinName": "2289",
+        "Access": "",
         "SkillArray": [
             [
                 570101,
@@ -2104,6 +2320,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5701,
         "Name": null
     },
@@ -2111,6 +2330,7 @@
         "GirlId": 58,
         "Skin": 1,
         "SkinName": "2290",
+        "Access": "",
         "SkillArray": [
             [
                 580101,
@@ -2145,6 +2365,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5801,
         "Name": null
     },
@@ -2152,6 +2375,7 @@
         "GirlId": 59,
         "Skin": 1,
         "SkinName": "2291",
+        "Access": "",
         "SkillArray": [
             [
                 590101,
@@ -2186,6 +2410,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5901,
         "Name": null
     },
@@ -2193,6 +2420,7 @@
         "GirlId": 61,
         "Skin": 1,
         "SkinName": "2292",
+        "Access": "",
         "SkillArray": [
             [
                 610101,
@@ -2227,6 +2455,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6101,
         "Name": null
     },
@@ -2234,6 +2465,7 @@
         "GirlId": 62,
         "Skin": 1,
         "SkinName": "2293",
+        "Access": "",
         "SkillArray": [
             [
                 620101,
@@ -2268,6 +2500,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6201,
         "Name": null
     },
@@ -2275,6 +2510,7 @@
         "GirlId": 63,
         "Skin": 1,
         "SkinName": "2294",
+        "Access": "",
         "SkillArray": [
             [
                 630101,
@@ -2310,6 +2546,9 @@
             21010260,
             23010260
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6301,
         "Name": null
     },
@@ -2317,6 +2556,7 @@
         "GirlId": 64,
         "Skin": 1,
         "SkinName": "2295",
+        "Access": "",
         "SkillArray": [
             [
                 640101,
@@ -2352,6 +2592,9 @@
             21010130,
             23010130
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6401,
         "Name": null
     },
@@ -2359,6 +2602,7 @@
         "GirlId": 65,
         "Skin": 1,
         "SkinName": "2296",
+        "Access": "",
         "SkillArray": [
             [
                 650101,
@@ -2393,6 +2637,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6501,
         "Name": null
     },
@@ -2400,6 +2647,7 @@
         "GirlId": 66,
         "Skin": 1,
         "SkinName": "2297",
+        "Access": "",
         "SkillArray": [
             [
                 660101,
@@ -2434,6 +2682,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6601,
         "Name": null
     },
@@ -2441,6 +2692,7 @@
         "GirlId": 67,
         "Skin": 1,
         "SkinName": "2298",
+        "Access": "",
         "SkillArray": [
             [
                 670101,
@@ -2475,6 +2727,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6701,
         "Name": null
     },
@@ -2482,6 +2737,7 @@
         "GirlId": 68,
         "Skin": 1,
         "SkinName": "2299",
+        "Access": "",
         "SkillArray": [
             [
                 680101,
@@ -2517,6 +2773,9 @@
             21010270,
             23010270
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6801,
         "Name": null
     },
@@ -2524,6 +2783,7 @@
         "GirlId": 69,
         "Skin": 1,
         "SkinName": "2300",
+        "Access": "",
         "SkillArray": [
             [
                 690101,
@@ -2558,6 +2818,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6901,
         "Name": null
     },
@@ -2565,6 +2828,7 @@
         "GirlId": 70,
         "Skin": 1,
         "SkinName": "2301",
+        "Access": "",
         "SkillArray": [
             [
                 700101,
@@ -2600,6 +2864,9 @@
             21010320,
             23010320
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7001,
         "Name": null
     },
@@ -2607,6 +2874,7 @@
         "GirlId": 52,
         "Skin": 1,
         "SkinName": "1127",
+        "Access": "",
         "SkillArray": [
             [
                 520101,
@@ -2642,6 +2910,9 @@
             21010160,
             23010160
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5201,
         "Name": null
     },
@@ -2649,6 +2920,7 @@
         "GirlId": 71,
         "Skin": 1,
         "SkinName": "2302",
+        "Access": "",
         "SkillArray": [
             [
                 710101,
@@ -2683,6 +2955,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7101,
         "Name": null
     },
@@ -2690,6 +2965,7 @@
         "GirlId": 73,
         "Skin": 1,
         "SkinName": "2303",
+        "Access": "",
         "SkillArray": [
             [
                 730101,
@@ -2724,6 +3000,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7301,
         "Name": null
     },
@@ -2731,6 +3010,7 @@
         "GirlId": 74,
         "Skin": 1,
         "SkinName": "2309",
+        "Access": "",
         "SkillArray": [
             [
                 740101,
@@ -2766,6 +3046,9 @@
             21010220,
             23010220
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7401,
         "Name": null
     },
@@ -2773,6 +3056,7 @@
         "GirlId": 77,
         "Skin": 1,
         "SkinName": "2304",
+        "Access": "",
         "SkillArray": [
             [
                 770101,
@@ -2807,6 +3091,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 3,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7701,
         "Name": null
     },
@@ -2814,6 +3101,7 @@
         "GirlId": 78,
         "Skin": 1,
         "SkinName": "2305",
+        "Access": "",
         "SkillArray": [
             [
                 780101,
@@ -2848,6 +3136,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7801,
         "Name": null
     },
@@ -2855,6 +3146,7 @@
         "GirlId": 79,
         "Skin": 1,
         "SkinName": "2306",
+        "Access": "",
         "SkillArray": [
             [
                 790101,
@@ -2889,6 +3181,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7901,
         "Name": null
     },
@@ -2896,6 +3191,7 @@
         "GirlId": 81,
         "Skin": 1,
         "SkinName": "2307",
+        "Access": "",
         "SkillArray": [
             [
                 810101,
@@ -2931,6 +3227,9 @@
             21010210,
             23010210
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8101,
         "Name": null
     },
@@ -2938,6 +3237,7 @@
         "GirlId": 82,
         "Skin": 1,
         "SkinName": "2308",
+        "Access": "",
         "SkillArray": [
             [
                 820101,
@@ -2972,6 +3272,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8201,
         "Name": null
     },
@@ -2979,6 +3282,7 @@
         "GirlId": 1,
         "Skin": 2,
         "SkinName": "1015",
+        "Access": "4455",
         "SkillArray": [
             [
                 10201,
@@ -3014,6 +3318,14 @@
             21010011,
             23010011
         ],
+        "LikabilitySpeech": 7,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                10105,
+                1
+            ]
+        ],
         "ID": 102,
         "Name": null
     },
@@ -3021,6 +3333,7 @@
         "GirlId": 12,
         "Skin": 2,
         "SkinName": "2806",
+        "Access": "19046",
         "SkillArray": [
             [
                 120201,
@@ -3055,6 +3368,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1202,
         "Name": null
     },
@@ -3062,6 +3378,7 @@
         "GirlId": 20,
         "Skin": 2,
         "SkinName": "1013",
+        "Access": "4453",
         "SkillArray": [
             [
                 200201,
@@ -3097,6 +3414,9 @@
             21010021,
             23010021
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2002,
         "Name": null
     },
@@ -3104,6 +3424,7 @@
         "GirlId": 24,
         "Skin": 2,
         "SkinName": "2807",
+        "Access": "19046",
         "SkillArray": [
             [
                 240201,
@@ -3139,6 +3460,9 @@
             21010031,
             23010031
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2402,
         "Name": null
     },
@@ -3146,6 +3470,7 @@
         "GirlId": 28,
         "Skin": 2,
         "SkinName": "2808",
+        "Access": "4454",
         "SkillArray": [
             [
                 280201,
@@ -3180,6 +3505,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2802,
         "Name": null
     },
@@ -3187,6 +3515,7 @@
         "GirlId": 41,
         "Skin": 4,
         "SkinName": "2809",
+        "Access": "19046",
         "SkillArray": [
             [
                 410401,
@@ -3221,6 +3550,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4104,
         "Name": null
     },
@@ -3228,6 +3560,7 @@
         "GirlId": 48,
         "Skin": 2,
         "SkinName": "1014",
+        "Access": "19046",
         "SkillArray": [
             [
                 480201,
@@ -3262,6 +3595,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4802,
         "Name": null
     },
@@ -3269,6 +3605,7 @@
         "GirlId": 50,
         "Skin": 2,
         "SkinName": "2810",
+        "Access": "19046",
         "SkillArray": [
             [
                 500201,
@@ -3303,6 +3640,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5002,
         "Name": null
     },
@@ -3310,6 +3650,7 @@
         "GirlId": 6,
         "Skin": 2,
         "SkinName": "1016",
+        "Access": "4456",
         "SkillArray": [
             [
                 60201,
@@ -3344,6 +3685,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 602,
         "Name": null
     },
@@ -3351,6 +3695,7 @@
         "GirlId": 21,
         "Skin": 2,
         "SkinName": "1018",
+        "Access": "19046",
         "SkillArray": [
             [
                 210201,
@@ -3386,6 +3731,9 @@
             21010151,
             23010151
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2102,
         "Name": null
     },
@@ -3393,6 +3741,7 @@
         "GirlId": 32,
         "Skin": 2,
         "SkinName": "1021",
+        "Access": "19046",
         "SkillArray": [
             [
                 320201,
@@ -3428,6 +3777,9 @@
             21010171,
             23010171
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3202,
         "Name": null
     },
@@ -3435,6 +3787,7 @@
         "GirlId": 61,
         "Skin": 2,
         "SkinName": "1027",
+        "Access": "4456",
         "SkillArray": [
             [
                 610201,
@@ -3469,6 +3822,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6102,
         "Name": null
     },
@@ -3476,6 +3832,7 @@
         "GirlId": 81,
         "Skin": 2,
         "SkinName": "1028",
+        "Access": "4457",
         "SkillArray": [
             [
                 810201,
@@ -3511,6 +3868,9 @@
             21010211,
             23010211
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8102,
         "Name": null
     },
@@ -3518,6 +3878,7 @@
         "GirlId": 82,
         "Skin": 2,
         "SkinName": "1029",
+        "Access": "19046",
         "SkillArray": [
             [
                 820201,
@@ -3552,6 +3913,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 8202,
         "Name": null
     },
@@ -3559,6 +3923,7 @@
         "GirlId": 24,
         "Skin": 3,
         "SkinName": "1019",
+        "Access": "4457",
         "SkillArray": [
             [
                 240301,
@@ -3594,6 +3959,9 @@
             21010032,
             23010032
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2403,
         "Name": null
     },
@@ -3601,6 +3969,7 @@
         "GirlId": 38,
         "Skin": 3,
         "SkinName": "1023",
+        "Access": "19046",
         "SkillArray": [
             [
                 380301,
@@ -3635,6 +4004,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3803,
         "Name": null
     },
@@ -3642,6 +4014,7 @@
         "GirlId": 41,
         "Skin": 3,
         "SkinName": "1024",
+        "Access": "4456",
         "SkillArray": [
             [
                 410301,
@@ -3676,6 +4049,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4103,
         "Name": null
     },
@@ -3683,6 +4059,7 @@
         "GirlId": 48,
         "Skin": 3,
         "SkinName": "1026",
+        "Access": "19046",
         "SkillArray": [
             [
                 480301,
@@ -3717,6 +4094,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4803,
         "Name": null
     },
@@ -3724,6 +4104,7 @@
         "GirlId": 12,
         "Skin": 4,
         "SkinName": "1017",
+        "Access": "4456",
         "SkillArray": [
             [
                 120401,
@@ -3758,6 +4139,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1204,
         "Name": null
     },
@@ -3765,6 +4149,7 @@
         "GirlId": 28,
         "Skin": 4,
         "SkinName": "1020",
+        "Access": "4456",
         "SkillArray": [
             [
                 280401,
@@ -3799,6 +4184,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 2804,
         "Name": null
     },
@@ -3806,6 +4194,7 @@
         "GirlId": 33,
         "Skin": 4,
         "SkinName": "1022",
+        "Access": "19046",
         "SkillArray": [
             [
                 330401,
@@ -3841,6 +4230,9 @@
             21010243,
             23010243
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3304,
         "Name": null
     },
@@ -3848,6 +4240,7 @@
         "GirlId": 43,
         "Skin": 4,
         "SkinName": "1025",
+        "Access": "19046",
         "SkillArray": [
             [
                 430401,
@@ -3883,6 +4276,9 @@
             21010193,
             23010193
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4304,
         "Name": null
     },
@@ -3890,6 +4286,7 @@
         "GirlId": 78,
         "Skin": 3,
         "SkinName": "1033",
+        "Access": "19046",
         "SkillArray": [
             [
                 780301,
@@ -3924,6 +4321,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 7803,
         "Name": null
     },
@@ -3931,6 +4331,7 @@
         "GirlId": 50,
         "Skin": 4,
         "SkinName": "1034",
+        "Access": "19046",
         "SkillArray": [
             [
                 500401,
@@ -3965,6 +4366,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5004,
         "Name": null
     },
@@ -3972,6 +4376,7 @@
         "GirlId": 92,
         "Skin": 1,
         "SkinName": "2310",
+        "Access": "",
         "SkillArray": [
             [
                 920101,
@@ -4007,6 +4412,9 @@
             21010280,
             23010280
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9201,
         "Name": null
     },
@@ -4014,6 +4422,7 @@
         "GirlId": 96,
         "Skin": 1,
         "SkinName": "2311",
+        "Access": "",
         "SkillArray": [
             [
                 960101,
@@ -4049,6 +4458,9 @@
             21010230,
             23010230
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9601,
         "Name": null
     },
@@ -4056,6 +4468,7 @@
         "GirlId": 17,
         "Skin": 2,
         "SkinName": "8605",
+        "Access": "19046",
         "SkillArray": [
             [
                 170201,
@@ -4090,6 +4503,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1702,
         "Name": null
     },
@@ -4097,6 +4513,7 @@
         "GirlId": 29,
         "Skin": 2,
         "SkinName": "2812",
+        "Access": "19046",
         "SkillArray": [
             [
                 290201,
@@ -4132,6 +4549,9 @@
             21010071,
             23010071
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2902,
         "Name": null
     },
@@ -4139,6 +4559,7 @@
         "GirlId": 96,
         "Skin": 2,
         "SkinName": "12768",
+        "Access": "19047",
         "SkillArray": [
             [
                 960201,
@@ -4174,6 +4595,9 @@
             21010231,
             23010231
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9602,
         "Name": null
     },
@@ -4181,6 +4605,7 @@
         "GirlId": 76,
         "Skin": 1,
         "SkinName": "2804",
+        "Access": "",
         "SkillArray": [
             [
                 760101,
@@ -4215,6 +4640,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7601,
         "Name": null
     },
@@ -4222,6 +4650,7 @@
         "GirlId": 84,
         "Skin": 1,
         "SkinName": "8977",
+        "Access": "",
         "SkillArray": [
             [
                 840101,
@@ -4256,6 +4685,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8401,
         "Name": null
     },
@@ -4263,6 +4695,7 @@
         "GirlId": 91,
         "Skin": 1,
         "SkinName": "8570",
+        "Access": "",
         "SkillArray": [
             [
                 910101,
@@ -4297,6 +4730,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9101,
         "Name": null
     },
@@ -4304,6 +4740,7 @@
         "GirlId": 97,
         "Skin": 1,
         "SkinName": "8978",
+        "Access": "",
         "SkillArray": [
             [
                 970101,
@@ -4338,6 +4775,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9701,
         "Name": null
     },
@@ -4345,6 +4785,7 @@
         "GirlId": 1,
         "Skin": 3,
         "SkinName": "9014",
+        "Access": "19047",
         "SkillArray": [
             [
                 10301,
@@ -4380,6 +4821,14 @@
             21010012,
             23010012
         ],
+        "LikabilitySpeech": 7,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                10105,
+                1
+            ]
+        ],
         "ID": 103,
         "Name": null
     },
@@ -4387,6 +4836,7 @@
         "GirlId": 11,
         "Skin": 2,
         "SkinName": "9015",
+        "Access": "4457",
         "SkillArray": [
             [
                 110201,
@@ -4422,6 +4872,9 @@
             21010081,
             23010081
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1102,
         "Name": null
     },
@@ -4429,6 +4882,7 @@
         "GirlId": 12,
         "Skin": 3,
         "SkinName": "9016",
+        "Access": "19047",
         "SkillArray": [
             [
                 120301,
@@ -4463,6 +4917,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1203,
         "Name": null
     },
@@ -4470,6 +4927,7 @@
         "GirlId": 20,
         "Skin": 3,
         "SkinName": "8897",
+        "Access": "19047",
         "SkillArray": [
             [
                 200301,
@@ -4505,6 +4963,9 @@
             21010022,
             23010022
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2003,
         "Name": null
     },
@@ -4512,6 +4973,7 @@
         "GirlId": 24,
         "Skin": 4,
         "SkinName": "8898",
+        "Access": "19047",
         "SkillArray": [
             [
                 240401,
@@ -4547,6 +5009,9 @@
             21010033,
             23010033
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2404,
         "Name": null
     },
@@ -4554,6 +5019,7 @@
         "GirlId": 28,
         "Skin": 3,
         "SkinName": "9017",
+        "Access": "19047",
         "SkillArray": [
             [
                 280301,
@@ -4588,6 +5054,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2803,
         "Name": null
     },
@@ -4595,6 +5064,7 @@
         "GirlId": 32,
         "Skin": 3,
         "SkinName": "8899",
+        "Access": "4457",
         "SkillArray": [
             [
                 320301,
@@ -4630,6 +5100,9 @@
             21010172,
             23010172
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3203,
         "Name": null
     },
@@ -4637,6 +5110,7 @@
         "GirlId": 33,
         "Skin": 3,
         "SkinName": "9018",
+        "Access": "19047",
         "SkillArray": [
             [
                 330301,
@@ -4672,6 +5146,9 @@
             21010242,
             23010242
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3303,
         "Name": null
     },
@@ -4679,6 +5156,7 @@
         "GirlId": 43,
         "Skin": 3,
         "SkinName": "9019",
+        "Access": "19047",
         "SkillArray": [
             [
                 430301,
@@ -4714,6 +5192,9 @@
             21010192,
             23010192
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4303,
         "Name": null
     },
@@ -4721,6 +5202,7 @@
         "GirlId": 50,
         "Skin": 3,
         "SkinName": "9020",
+        "Access": "19047",
         "SkillArray": [
             [
                 500301,
@@ -4755,6 +5237,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5003,
         "Name": null
     },
@@ -4762,6 +5247,7 @@
         "GirlId": 68,
         "Skin": 2,
         "SkinName": "9021",
+        "Access": "19047",
         "SkillArray": [
             [
                 680201,
@@ -4797,6 +5283,9 @@
             21010271,
             23010271
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6802,
         "Name": null
     },
@@ -4804,6 +5293,7 @@
         "GirlId": 68,
         "Skin": 3,
         "SkinName": "9022",
+        "Access": "4457",
         "SkillArray": [
             [
                 680301,
@@ -4839,6 +5329,9 @@
             21010272,
             23010272
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6803,
         "Name": null
     },
@@ -4846,6 +5339,7 @@
         "GirlId": 81,
         "Skin": 3,
         "SkinName": "8900",
+        "Access": "19047",
         "SkillArray": [
             [
                 810301,
@@ -4881,6 +5375,9 @@
             21010212,
             23010212
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8103,
         "Name": null
     },
@@ -4888,6 +5385,7 @@
         "GirlId": 47,
         "Skin": 1,
         "SkinName": "11712",
+        "Access": "",
         "SkillArray": [
             [
                 470101,
@@ -4923,6 +5421,9 @@
             21010120,
             23010120
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4701,
         "Name": null
     },
@@ -4930,6 +5431,7 @@
         "GirlId": 80,
         "Skin": 1,
         "SkinName": "11713",
+        "Access": "",
         "SkillArray": [
             [
                 800101,
@@ -4965,6 +5467,9 @@
             21010290,
             23010290
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8001,
         "Name": null
     },
@@ -4972,6 +5477,7 @@
         "GirlId": 90,
         "Skin": 1,
         "SkinName": "11714",
+        "Access": "",
         "SkillArray": [
             [
                 900101,
@@ -5006,6 +5512,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9001,
         "Name": null
     },
@@ -5013,6 +5522,7 @@
         "GirlId": 2,
         "Skin": 2,
         "SkinName": "11748",
+        "Access": "4457",
         "SkillArray": [
             [
                 20201,
@@ -5047,6 +5557,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 202,
         "Name": null
     },
@@ -5054,6 +5567,7 @@
         "GirlId": 84,
         "Skin": 2,
         "SkinName": "11749",
+        "Access": "4457",
         "SkillArray": [
             [
                 840201,
@@ -5088,6 +5602,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8402,
         "Name": null
     },
@@ -5095,6 +5612,7 @@
         "GirlId": 13,
         "Skin": 2,
         "SkinName": "11750",
+        "Access": "19047",
         "SkillArray": [
             [
                 130201,
@@ -5130,6 +5648,9 @@
             21010051,
             23010051
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1302,
         "Name": null
     },
@@ -5137,6 +5658,7 @@
         "GirlId": 25,
         "Skin": 2,
         "SkinName": "11752",
+        "Access": "19046",
         "SkillArray": [
             [
                 250201,
@@ -5171,6 +5693,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2502,
         "Name": null
     },
@@ -5178,6 +5703,7 @@
         "GirlId": 33,
         "Skin": 2,
         "SkinName": "11754",
+        "Access": "19046",
         "SkillArray": [
             [
                 330201,
@@ -5213,6 +5739,9 @@
             21010241,
             23010241
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3302,
         "Name": null
     },
@@ -5220,6 +5749,7 @@
         "GirlId": 46,
         "Skin": 3,
         "SkinName": "11757",
+        "Access": "19047",
         "SkillArray": [
             [
                 460301,
@@ -5254,6 +5784,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4603,
         "Name": null
     },
@@ -5261,6 +5794,7 @@
         "GirlId": 45,
         "Skin": 1,
         "SkinName": "13126",
+        "Access": "",
         "SkillArray": [
             [
                 450101,
@@ -5296,6 +5830,9 @@
             21010250,
             23010250
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4501,
         "Name": null
     },
@@ -5303,6 +5840,7 @@
         "GirlId": 60,
         "Skin": 1,
         "SkinName": "13127",
+        "Access": "",
         "SkillArray": [
             [
                 600101,
@@ -5338,6 +5876,9 @@
             21010330,
             23010330
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6001,
         "Name": null
     },
@@ -5345,6 +5886,7 @@
         "GirlId": 101,
         "Skin": 1,
         "SkinName": "13128",
+        "Access": "",
         "SkillArray": [
             [
                 1010101,
@@ -5379,6 +5921,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10101,
         "Name": null
     },
@@ -5386,6 +5931,7 @@
         "GirlId": 102,
         "Skin": 1,
         "SkinName": "13129",
+        "Access": "",
         "SkillArray": [
             [
                 1020101,
@@ -5420,6 +5966,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10201,
         "Name": null
     },
@@ -5427,6 +5976,7 @@
         "GirlId": 103,
         "Skin": 1,
         "SkinName": "13130",
+        "Access": "",
         "SkillArray": [
             [
                 1030101,
@@ -5461,6 +6011,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10301,
         "Name": null
     },
@@ -5468,6 +6021,7 @@
         "GirlId": 104,
         "Skin": 1,
         "SkinName": "13131",
+        "Access": "",
         "SkillArray": [
             [
                 1040101,
@@ -5503,6 +6057,9 @@
             21010340,
             23010340
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10401,
         "Name": null
     },
@@ -5510,6 +6067,7 @@
         "GirlId": 105,
         "Skin": 1,
         "SkinName": "13132",
+        "Access": "",
         "SkillArray": [
             [
                 1050101,
@@ -5545,6 +6103,9 @@
             21010350,
             23010350
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10501,
         "Name": null
     },
@@ -5552,6 +6113,7 @@
         "GirlId": 24,
         "Skin": 5,
         "SkinName": "13196",
+        "Access": "4457",
         "SkillArray": [
             [
                 240501,
@@ -5587,6 +6149,9 @@
             21010034,
             23010034
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2405,
         "Name": null
     },
@@ -5594,6 +6159,7 @@
         "GirlId": 79,
         "Skin": 2,
         "SkinName": "13197",
+        "Access": "19046",
         "SkillArray": [
             [
                 790201,
@@ -5628,6 +6194,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7902,
         "Name": null
     },
@@ -5635,6 +6204,7 @@
         "GirlId": 59,
         "Skin": 2,
         "SkinName": "13198",
+        "Access": "4457",
         "SkillArray": [
             [
                 590201,
@@ -5669,6 +6239,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5902,
         "Name": null
     },
@@ -5676,6 +6249,7 @@
         "GirlId": 90,
         "Skin": 2,
         "SkinName": "13199",
+        "Access": "19046",
         "SkillArray": [
             [
                 900201,
@@ -5710,6 +6284,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 9002,
         "Name": null
     },
@@ -5717,6 +6294,7 @@
         "GirlId": 32,
         "Skin": 4,
         "SkinName": "13200",
+        "Access": "19047",
         "SkillArray": [
             [
                 320401,
@@ -5752,6 +6330,9 @@
             21010173,
             23010173
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3204,
         "Name": null
     },
@@ -5759,6 +6340,7 @@
         "GirlId": 37,
         "Skin": 2,
         "SkinName": "13201",
+        "Access": "19046",
         "SkillArray": [
             [
                 370201,
@@ -5793,6 +6375,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 3702,
         "Name": null
     },
@@ -5800,6 +6385,7 @@
         "GirlId": 38,
         "Skin": 2,
         "SkinName": "13202",
+        "Access": "19046",
         "SkillArray": [
             [
                 380201,
@@ -5834,6 +6420,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3802,
         "Name": null
     },
@@ -5841,6 +6430,7 @@
         "GirlId": 45,
         "Skin": 2,
         "SkinName": "13203",
+        "Access": "4457",
         "SkillArray": [
             [
                 450201,
@@ -5876,6 +6466,9 @@
             21010251,
             23010251
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4502,
         "Name": null
     },
@@ -5883,6 +6476,7 @@
         "GirlId": 55,
         "Skin": 2,
         "SkinName": "13204",
+        "Access": "19047",
         "SkillArray": [
             [
                 550201,
@@ -5918,6 +6512,9 @@
             21010101,
             23010101
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5502,
         "Name": null
     },
@@ -5925,6 +6522,7 @@
         "GirlId": 78,
         "Skin": 2,
         "SkinName": "13205",
+        "Access": "19046",
         "SkillArray": [
             [
                 780201,
@@ -5959,6 +6557,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7802,
         "Name": null
     },
@@ -5966,6 +6567,7 @@
         "GirlId": 82,
         "Skin": 3,
         "SkinName": "13206",
+        "Access": "19047",
         "SkillArray": [
             [
                 820301,
@@ -6000,6 +6602,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8203,
         "Name": null
     },
@@ -6007,6 +6612,7 @@
         "GirlId": 88,
         "Skin": 1,
         "SkinName": "14426",
+        "Access": "",
         "SkillArray": [
             [
                 880101,
@@ -6041,6 +6647,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8801,
         "Name": null
     },
@@ -6048,6 +6657,7 @@
         "GirlId": 89,
         "Skin": 1,
         "SkinName": "14427",
+        "Access": "",
         "SkillArray": [
             [
                 890101,
@@ -6082,6 +6692,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8901,
         "Name": null
     },
@@ -6089,6 +6702,7 @@
         "GirlId": 106,
         "Skin": 1,
         "SkinName": "14428",
+        "Access": "",
         "SkillArray": [
             [
                 1060101,
@@ -6123,6 +6737,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10601,
         "Name": null
     },
@@ -6130,6 +6747,7 @@
         "GirlId": 107,
         "Skin": 1,
         "SkinName": "14429",
+        "Access": "",
         "SkillArray": [
             [
                 1070101,
@@ -6165,6 +6783,9 @@
             21010380,
             23010380
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10701,
         "Name": null
     },
@@ -6172,6 +6793,7 @@
         "GirlId": 108,
         "Skin": 1,
         "SkinName": "14430",
+        "Access": "",
         "SkillArray": [
             [
                 1080101,
@@ -6207,6 +6829,9 @@
             21010390,
             23010390
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 10801,
         "Name": null
     },
@@ -6214,6 +6839,7 @@
         "GirlId": 59,
         "Skin": 3,
         "SkinName": "14470",
+        "Access": "19046",
         "SkillArray": [
             [
                 590301,
@@ -6248,6 +6874,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5903,
         "Name": null
     },
@@ -6255,6 +6884,7 @@
         "GirlId": 108,
         "Skin": 2,
         "SkinName": "14471",
+        "Access": "19046",
         "SkillArray": [
             [
                 1080201,
@@ -6290,6 +6920,9 @@
             21010391,
             23010391
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 10802,
         "Name": null
     },
@@ -6297,6 +6930,7 @@
         "GirlId": 9999,
         "Skin": 1,
         "SkinName": "15079",
+        "Access": "",
         "SkillArray": [
             [
                 1080201,
@@ -6331,6 +6965,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 999901,
         "Name": null
     },
@@ -6338,6 +6975,7 @@
         "GirlId": 33,
         "Skin": 5,
         "SkinName": "15150",
+        "Access": "19046",
         "SkillArray": [
             [
                 330201,
@@ -6373,6 +7011,9 @@
             21010244,
             23010244
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 20001,
         "Name": null
     },
@@ -6380,6 +7021,7 @@
         "GirlId": 82,
         "Skin": 4,
         "SkinName": "15151",
+        "Access": "19046",
         "SkillArray": [
             [
                 820301,
@@ -6412,6 +7054,9 @@
         "RoleVoice": 1000822,
         "StandbyTime": 2,
         "MachineArmorModel1": [],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 20002,
         "Name": null
     },
@@ -6419,6 +7064,7 @@
         "GirlId": 20,
         "Skin": 4,
         "SkinName": "15251",
+        "Access": "4457",
         "SkillArray": [
             [
                 200401,
@@ -6454,6 +7100,9 @@
             21010023,
             23010023
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2004,
         "Name": null
     },
@@ -6461,6 +7110,7 @@
         "GirlId": 46,
         "Skin": 2,
         "SkinName": "15252",
+        "Access": "4457",
         "SkillArray": [
             [
                 460201,
@@ -6495,6 +7145,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4602,
         "Name": null
     },
@@ -6502,6 +7155,7 @@
         "GirlId": 70,
         "Skin": 2,
         "SkinName": "15253",
+        "Access": "4457",
         "SkillArray": [
             [
                 700201,
@@ -6537,6 +7191,9 @@
             21010321,
             23010321
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7002,
         "Name": null
     },
@@ -6544,6 +7201,7 @@
         "GirlId": 103,
         "Skin": 2,
         "SkinName": "15254",
+        "Access": "4457",
         "SkillArray": [
             [
                 1030201,
@@ -6578,6 +7236,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 10302,
         "Name": null
     },
@@ -6585,6 +7246,7 @@
         "GirlId": 116,
         "Skin": 1,
         "SkinName": "15255",
+        "Access": "",
         "SkillArray": [
             [
                 1160101,
@@ -6620,6 +7282,9 @@
             21010410,
             23010410
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11601,
         "Name": null
     },
@@ -6627,6 +7292,7 @@
         "GirlId": 117,
         "Skin": 1,
         "SkinName": "15256",
+        "Access": "",
         "SkillArray": [
             [
                 1170101,
@@ -6662,6 +7328,9 @@
             21010420,
             23010420
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11701,
         "Name": null
     },
@@ -6669,6 +7338,7 @@
         "GirlId": 13,
         "Skin": 3,
         "SkinName": "17403",
+        "Access": "19046",
         "SkillArray": [
             [
                 130301,
@@ -6704,6 +7374,9 @@
             21010052,
             23010052
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 1303,
         "Name": null
     },
@@ -6711,6 +7384,7 @@
         "GirlId": 55,
         "Skin": 3,
         "SkinName": "17404",
+        "Access": "19046",
         "SkillArray": [
             [
                 550301,
@@ -6746,6 +7420,9 @@
             21010102,
             23010102
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5503,
         "Name": null
     },
@@ -6753,6 +7430,7 @@
         "GirlId": 60,
         "Skin": 2,
         "SkinName": "17405",
+        "Access": "19046",
         "SkillArray": [
             [
                 600201,
@@ -6788,6 +7466,9 @@
             21010331,
             23010331
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6002,
         "Name": null
     },
@@ -6795,6 +7476,7 @@
         "GirlId": 71,
         "Skin": 2,
         "SkinName": "17406",
+        "Access": "19046",
         "SkillArray": [
             [
                 710201,
@@ -6829,6 +7511,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 7102,
         "Name": null
     },
@@ -6836,6 +7521,7 @@
         "GirlId": 119,
         "Skin": 1,
         "SkinName": "17129",
+        "Access": "",
         "SkillArray": [
             [
                 1190101,
@@ -6871,6 +7557,9 @@
             21010450,
             23010450
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11901,
         "Name": null
     },
@@ -6878,6 +7567,7 @@
         "GirlId": 120,
         "Skin": 1,
         "SkinName": "17137",
+        "Access": "",
         "SkillArray": [
             [
                 1200101,
@@ -6913,6 +7603,9 @@
             21010460,
             23010460
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 12001,
         "Name": null
     },
@@ -6920,6 +7613,7 @@
         "GirlId": 121,
         "Skin": 1,
         "SkinName": "17208",
+        "Access": "",
         "SkillArray": [
             [
                 1210101,
@@ -6954,6 +7648,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 12101,
         "Name": null
     },
@@ -6961,6 +7658,7 @@
         "GirlId": 116,
         "Skin": 2,
         "SkinName": "17810",
+        "Access": "19047",
         "SkillArray": [
             [
                 1160201,
@@ -6996,6 +7694,9 @@
             21010410,
             23010410
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11602,
         "Name": null
     },
@@ -7003,6 +7704,7 @@
         "GirlId": 110,
         "Skin": 1,
         "SkinName": "17791",
+        "Access": "",
         "SkillArray": [
             [
                 1100101,
@@ -7038,6 +7740,9 @@
             21010480,
             23010480
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11001,
         "Name": null
     },
@@ -7045,6 +7750,7 @@
         "GirlId": 111,
         "Skin": 1,
         "SkinName": "17792",
+        "Access": "",
         "SkillArray": [
             [
                 1110101,
@@ -7080,6 +7786,9 @@
             21010490,
             23010490
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11101,
         "Name": null
     },
@@ -7087,6 +7796,7 @@
         "GirlId": 112,
         "Skin": 1,
         "SkinName": "17793",
+        "Access": "",
         "SkillArray": [
             [
                 1120101,
@@ -7122,6 +7832,9 @@
             21010500,
             23010500
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11201,
         "Name": null
     },
@@ -7129,6 +7842,7 @@
         "GirlId": 113,
         "Skin": 1,
         "SkinName": "17794",
+        "Access": "",
         "SkillArray": [
             [
                 1130101,
@@ -7164,6 +7878,9 @@
             21010470,
             23010470
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11301,
         "Name": null
     },
@@ -7171,6 +7888,7 @@
         "GirlId": 114,
         "Skin": 1,
         "SkinName": "17795",
+        "Access": "",
         "SkillArray": [
             [
                 1140101,
@@ -7206,6 +7924,9 @@
             21010510,
             23010510
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11401,
         "Name": null
     },
@@ -7213,6 +7934,7 @@
         "GirlId": 111,
         "Skin": 2,
         "SkinName": "18543",
+        "Access": "4457",
         "SkillArray": [
             [
                 1110201,
@@ -7248,6 +7970,9 @@
             21010490,
             23010490
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11102,
         "Name": null
     },
@@ -7255,6 +7980,7 @@
         "GirlId": 95,
         "Skin": 1,
         "SkinName": "18502",
+        "Access": "",
         "SkillArray": [
             [
                 950101,
@@ -7290,6 +8016,14 @@
             21010560,
             23010560
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                950105,
+                1
+            ]
+        ],
         "ID": 9501,
         "Name": null
     },
@@ -7297,6 +8031,7 @@
         "GirlId": 122,
         "Skin": 1,
         "SkinName": "18960",
+        "Access": "",
         "SkillArray": [
             [
                 1220101,
@@ -7332,6 +8067,9 @@
             21010570,
             23010570
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 12201,
         "Name": null
     },
@@ -7339,6 +8077,7 @@
         "GirlId": 45,
         "Skin": 3,
         "SkinName": "19049",
+        "Access": "4456",
         "SkillArray": [
             [
                 450301,
@@ -7374,6 +8113,9 @@
             21010252,
             23010252
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4503,
         "Name": null
     },
@@ -7381,6 +8123,7 @@
         "GirlId": 40,
         "Skin": 2,
         "SkinName": "19050",
+        "Access": "4456",
         "SkillArray": [
             [
                 400201,
@@ -7415,6 +8158,9 @@
         "MachineArmorModel1": [
             0
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4002,
         "Name": null
     },
@@ -7422,6 +8168,7 @@
         "GirlId": 122,
         "Skin": 2,
         "SkinName": "19055",
+        "Access": "4457",
         "SkillArray": [
             [
                 1220201,
@@ -7457,6 +8204,9 @@
             21010571,
             23010571
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 12202,
         "Name": null
     },
@@ -7464,6 +8214,7 @@
         "GirlId": 52,
         "Skin": 2,
         "SkinName": "19053",
+        "Access": "4457",
         "SkillArray": [
             [
                 520201,
@@ -7499,6 +8250,9 @@
             21010161,
             23010161
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 5202,
         "Name": null
     },
@@ -7506,6 +8260,7 @@
         "GirlId": 116,
         "Skin": 3,
         "SkinName": "19051",
+        "Access": "4457",
         "SkillArray": [
             [
                 1160301,
@@ -7541,6 +8296,9 @@
             21010412,
             23010412
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 11603,
         "Name": null
     },
@@ -7548,6 +8306,7 @@
         "GirlId": 68,
         "Skin": 4,
         "SkinName": "19054",
+        "Access": "4457",
         "SkillArray": [
             [
                 680401,
@@ -7583,6 +8342,9 @@
             21010273,
             23010273
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 6804,
         "Name": null
     },
@@ -7590,6 +8352,7 @@
         "GirlId": 47,
         "Skin": 2,
         "SkinName": "19048",
+        "Access": "4457",
         "SkillArray": [
             [
                 470201,
@@ -7625,6 +8388,9 @@
             21010121,
             23010121
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 4702,
         "Name": null
     },
@@ -7632,6 +8398,7 @@
         "GirlId": 20,
         "Skin": 5,
         "SkinName": "19052",
+        "Access": "4457",
         "SkillArray": [
             [
                 200501,
@@ -7667,6 +8434,9 @@
             21010024,
             23010024
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 2005,
         "Name": null
     },
@@ -7674,6 +8444,7 @@
         "GirlId": 1,
         "Skin": 4,
         "SkinName": "19832",
+        "Access": "19843",
         "SkillArray": [
             [
                 10401,
@@ -7709,6 +8480,14 @@
             21010013,
             23010013
         ],
+        "LikabilitySpeech": 7,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                10105,
+                1
+            ]
+        ],
         "ID": 104,
         "Name": null
     },
@@ -7716,6 +8495,7 @@
         "GirlId": 11,
         "Skin": 3,
         "SkinName": "19833",
+        "Access": "19843",
         "SkillArray": [
             [
                 110301,
@@ -7751,6 +8531,9 @@
             21010082,
             23010082
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 1103,
         "Name": null
     },
@@ -7758,6 +8541,7 @@
         "GirlId": 21,
         "Skin": 3,
         "SkinName": "19834",
+        "Access": "19843",
         "SkillArray": [
             [
                 210301,
@@ -7793,6 +8577,9 @@
             21010152,
             23010152
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 2103,
         "Name": null
     },
@@ -7800,6 +8587,7 @@
         "GirlId": 29,
         "Skin": 3,
         "SkinName": "19835",
+        "Access": "19843",
         "SkillArray": [
             [
                 290301,
@@ -7835,6 +8623,9 @@
             21010072,
             23010072
         ],
+        "LikabilitySpeech": 27,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 2903,
         "Name": null
     },
@@ -7842,6 +8633,7 @@
         "GirlId": 31,
         "Skin": 2,
         "SkinName": "19836",
+        "Access": "19843",
         "SkillArray": [
             [
                 310201,
@@ -7877,6 +8669,14 @@
             21010061,
             23010061
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                310105,
+                1
+            ]
+        ],
         "ID": 3102,
         "Name": null
     },
@@ -7884,6 +8684,7 @@
         "GirlId": 33,
         "Skin": 6,
         "SkinName": "19837",
+        "Access": "19843",
         "SkillArray": [
             [
                 330601,
@@ -7919,6 +8720,9 @@
             21010244,
             23010244
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 3306,
         "Name": null
     },
@@ -7926,6 +8730,7 @@
         "GirlId": 35,
         "Skin": 2,
         "SkinName": "19838",
+        "Access": "19843",
         "SkillArray": [
             [
                 350201,
@@ -7961,6 +8766,14 @@
             21010311,
             23010311
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                350105,
+                1
+            ]
+        ],
         "ID": 3502,
         "Name": null
     },
@@ -7968,6 +8781,7 @@
         "GirlId": 39,
         "Skin": 2,
         "SkinName": "19839",
+        "Access": "19843",
         "SkillArray": [
             [
                 390201,
@@ -8003,6 +8817,9 @@
             21010111,
             23010111
         ],
+        "LikabilitySpeech": 3,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 3902,
         "Name": null
     },
@@ -8010,6 +8827,7 @@
         "GirlId": 43,
         "Skin": 5,
         "SkinName": "19840",
+        "Access": "19843",
         "SkillArray": [
             [
                 430501,
@@ -8045,6 +8863,9 @@
             21010194,
             23010194
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 4305,
         "Name": null
     },
@@ -8052,6 +8873,7 @@
         "GirlId": 55,
         "Skin": 4,
         "SkinName": "19841",
+        "Access": "19843",
         "SkillArray": [
             [
                 550401,
@@ -8087,6 +8909,9 @@
             21010102,
             23010102
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 5504,
         "Name": null
     },
@@ -8094,6 +8919,7 @@
         "GirlId": 68,
         "Skin": 5,
         "SkinName": "19842",
+        "Access": "19843",
         "SkillArray": [
             [
                 680501,
@@ -8129,6 +8955,9 @@
             21010274,
             23010274
         ],
+        "LikabilitySpeech": 25,
+        "IsHide": true,
+        "SkillArrayUR": [],
         "ID": 6805,
         "Name": null
     },
@@ -8136,6 +8965,7 @@
         "GirlId": 56,
         "Skin": 1,
         "SkinName": "20242",
+        "Access": "",
         "SkillArray": [
             [
                 560101,
@@ -8171,6 +9001,14 @@
             21010610,
             23010610
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                560105,
+                1
+            ]
+        ],
         "ID": 5601,
         "Name": null
     },
@@ -8178,6 +9016,7 @@
         "GirlId": 83,
         "Skin": 1,
         "SkinName": "20242",
+        "Access": "",
         "SkillArray": [
             [
                 830101,
@@ -8213,6 +9052,14 @@
             21010600,
             23010600
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [
+            [
+                830105,
+                1
+            ]
+        ],
         "ID": 8301,
         "Name": null
     },
@@ -8220,6 +9067,7 @@
         "GirlId": 80,
         "Skin": 2,
         "SkinName": "20391",
+        "Access": "4457",
         "SkillArray": [
             [
                 800201,
@@ -8255,6 +9103,9 @@
             21010291,
             23010291
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 8002,
         "Name": null
     },
@@ -8262,6 +9113,7 @@
         "GirlId": 36,
         "Skin": 2,
         "SkinName": "20393",
+        "Access": "4457",
         "SkillArray": [
             [
                 360201,
@@ -8297,6 +9149,9 @@
             21010371,
             23010371
         ],
+        "LikabilitySpeech": 26,
+        "IsHide": false,
+        "SkillArrayUR": [],
         "ID": 3602,
         "Name": null
     }

@@ -15,6 +15,7 @@ var app = new Vue({
 
         skill_level: [],
         selected_pilot_skill_array: [],
+        unpacker_mode: false,
 
         pixi: undefined,
         mouse: false,
@@ -30,6 +31,20 @@ var app = new Vue({
             handler: function (val, old) {
                 if (this.spine) {
                     this.spine.scale.set(val);
+                }
+            },
+            immediate: true,
+        },
+        unpacker_mode: {
+            handler: function (val, old) {
+                if (this.selected_skin) {
+                    let p = this.selected_pilot_skill_array.length;
+                    this.selected_pilot_skill_array = this.get_skill_array();
+                    if (this.selected_pilot_skill_array.length - p > 0) {
+                        for (let i = 0; i < this.selected_pilot_skill_array.length - p; i++) {
+                            this.skill_level.push(1);
+                        }
+                    }
                 }
             },
             immediate: true,
@@ -236,8 +251,17 @@ var app = new Vue({
                     skills: skill_a,
                 });
                 if (skill == this.selected_skin.SkillArray.length - 1) {
-                    array_id += 1;
-                    skill_array = fg_data.SkillArrayData.filter((x) => x.ArrayID == array_id);
+                    skill_array = [];
+                    if (this.unpacker_mode) {
+                        array_id += 1;
+                        skill_array = fg_data.SkillArrayData.filter((x) => x.ArrayID == array_id);
+                    } else {
+                        if (this.selected_skin.SkillArrayUR.length != 0) {
+                            skill_array = fg_data.SkillArrayData.filter((x) => x.ArrayID == this.selected_skin.SkillArrayUR[0][0]);
+                        } else {
+                            skill_array = [];
+                        }
+                    }
                     if (skill_array.length != 0) {
                         skill_a = [];
                         for (let sk in skill_array) {

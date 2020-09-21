@@ -27,7 +27,6 @@ async function init_data()
 	await axios.all(data_lst_keys.map(load_basic_data)).then(axios.spread((...a) =>
 	{
 		Vue.set(app.$data, 'loaded', true)
-		console.log(fg_data)
 	}))
 }
 function handle_select_url(key, key_path)
