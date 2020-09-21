@@ -168,9 +168,9 @@
                     <div class="skill_info" v-for="(skill, idx) in selected_pilot_skill_array">
                         <div style="display: flex; padding: 10px;">
                             <div style="display: flex; flex-flow: column; max-width: 96px;">
-                                <img :src="get_skill_icon(selected_pilot_skill_array[idx].skills[0].TrunkSkillIcon)" :class='skill.level >= selected_star ? "locked_skill" : ""' width="96" height="96" />
+                                <img :src="get_skill_icon(selected_pilot_skill_array[idx].skills[0].TrunkSkillIcon)" :class='skill.level > selected_star ? "locked_skill" : ""' width="96" height="96" />
                                 <span style="text-align: center;">{{calc_language(selected_pilot_skill_array[idx].skills[0].TrunkSkillName)}}</span>
-                                <span style="font-size: 16px; text-align: center;" v-if="skill.level >= selected_star">{{skill.level}}星解锁</span>
+                                <span style="font-size: 16px; text-align: center;" v-if="skill.level > selected_star">{{skill.level}}星解锁</span>
                                 <div style="display: flex; flex-flow: row; justify-content: space-between; align-items: center;">
                                     <i @click="set_skill_lv(idx, -1)" class="el-icon-arrow-left"></i>
                                     <span style="font-size: 16px;">Lv.{{skill_level[idx]}}</span>
