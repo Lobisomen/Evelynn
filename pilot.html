@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/element-ui/lib/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pixi.js@4.7.1/dist/pixi.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pixi-spine@1.5.22"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    </head>
+    <style>
+        .spine_btn {
+            font-size: 24px;
+            padding-top: 10px;
+			float: right;
+        }
+        .x_y_input {
+            margin-left: 3px;
+        }
+        .el-card#spine_card .el-card__body 
+		{
+            padding: 0px;
+        }
+		.el-dialog		
+		{
+			max-width: 1000px;
+		}
+		.pilot_spine_header
+		{
+			display: grid;
+			grid-template-columns: auto repeat(3, 25%) auto-fill;
+			grid-column-gap: 3px;
+			grid-template-areas:
+			"text xp yp scale btn"
+		}
+		.grid_img
+		{
+			width: 100%;
+			height: auto;
+			max-width: 128px;
+			max-height: 256px;
+		}
+		.pilot_img
+		{
+			grid-area: img;
+			margin-left: 0px;
+		}
+		.pilot_info_div
+		{
+			display: inline-grid;
+			grid-template-columns: auto auto auto;
+			grid-template-rows: 24px 24px 36px auto;
+			grid-column-gap: 15px;
+			grid-row-gap: 0px;
+			grid-template-areas:
+			"img rarity name"
+			"img rarity enName"
+			"img star star"
+			"img price price"
+			"detail detail detail"
+		}
+		@media screen and (min-width: 700px) 
+		{ 
+			.pilot_info_div
+			{
+				grid-template-areas:
+				"img rarity name detail"
+				"img rarity enName detail"
+				"img star star detail"
+				"img price price detail"
+			}
+		}
+    </style>
+    <body>
+        <div id="fgPilot" v-loading="!loaded" style="max-width: 1000px;">
+            <el-menu :default-active="now_index" class="el-menu-demo" mode="horizontal" @select="handle_select">
+                <el-menu-item index="mainpage">主页</el-menu-item>
+                <el-menu-item index="pilot">机师一览</el-menu-item>
+            </el-menu>
+            <el-autocomplete v-model="search_input" style="margin-top: 10px; width: 100%;" placeholder="请输入机师名" :fetch-suggestions="query_pilot" @select="pilot_handle_select"></el-autocomplete>
+            <div>
+                <el-button type="primary" style="width: 100%; margin-top: 10px;" @click="open_view = true"> 机师列表<i class="el-icon-arrow-down el-icon--right"></i> </el-button>
+            </div>
+            <el-card style="margin-top: 10px;" v-if="selected_pilot" v-loading="skin_loading">
+                <div slot="header" class="clearfix">
+                    皮肤
+                </div>
+                <el-avatar
+                    v-for="pilot in get_skin_list(selected_pilot.ID)"
+                    @click.native="load_pilot_data(selected_pilot, pilot.Skin)"
+                    style="margin: 1px;"
+                    :size="48"
+                    :src="get_skin_icon(pilot.GirlId, pilot.Skin)"
+                ></el-avatar>
+                <!--el-row v-if="check_width()">
+                    <el-col :span="8" v-for="pilot in get_skin_list(selected_pilot.ID)">
+                        <el-card @click.native="load_pilot_data(selected_pilot, pilot.Skin)" style="margin: 2px;">
+                            <el-avatar :src="get_skin_icon(pilot.GirlId, pilot.Skin)" style="margin: 1px; float: left;" :size="64"></el-avatar>
+                            <div style="border: 24px solid transparent;">
+                                <span style="margin-left: 10px;">{{calc_language(pilot.SkinName)}}</span>
+                            </div>
+                        </el-card>
+                    </el-col>
+                </el-row-->
+            </el-card>
+            <div v-show="selected_skin">
+				<el-card style="margin-top: 10px;" class="box-card" id="spine_card">
+				    <div slot="header" class="clearfix pilot_spine_header">
+				        <span style='grid-area: text; margin-top: 8px;'>立绘</span>
+				        <el-input type="number" style='grid-area: xp;' class="x_y_input" v-if="spine" placeholder="x" v-model.number="spine.position.x"></el-input>
+				        <el-input type="number" style='grid-area: yp;' class="x_y_input" v-if="spine" placeholder="y" v-model.number="spine.position.y"></el-input>
+				        <el-input type="number" style='grid-area: scale;' class="x_y_input" v-if="spine" v-show="check_width()" placeholder="放大倍数" v-model.number="now_scale" :min="0"></el-input>
+						<div style='grid-area: btn;'>
+							<!--el-button class="spine_icon" type="text" @click="now_scale -= 0.05"><i class="el-icon-zoom-out"></i></el-button>
+							<el-button class="spine_icon" type="text" @click="now_scale += 0.05"><i class="el-icon-zoom-in"></i></el-button-->
+							<el-switch class="spine_btn" v-model="spine_switch" active-color="#13ce66" inactive-color="#ff4949"> </el-switch>
+						</div>
+				        
+				    </div>
+				    <div id="spine" v-show="spine_switch">
+						<div style='position: absolute; left: 30px;'>
+							<el-button type="text" @click="now_scale += 0.05"><i style='font-size: 36px;' class="el-icon-zoom-in"></i></el-button>
+							<el-button type="text" @click="now_scale -= 0.05"><i style='font-size: 36px;' class="el-icon-zoom-out"></i></el-button>
+						</div>
+					</div>
+				</el-card>
+			</div>
+            <div v-if="selected_skin">
+				<el-card style='margin-top: 10px;' id='pilot_info'>
+					<div class='pilot_info_div'>
+						<div class='pilot_img'>
+							<img class='grid_img' :src="get_skin_square_head()" border="1"/>
+						</div>						
+						<div style='grid-area: rarity;'>
+							<img class='grid_img' style='max-height: 48px; width=auto;' :src='get_rarity(selected_pilot.GirlQualityType)'/>
+						</div>
+						<span style='grid-area: name;'>
+							{{calc_language(selected_pilot.Name)}}
+						</span>
+						<span style='grid-area: enName;'>
+							{{selected_pilot.EnglishName}}
+						</span>
+						<div style='grid-area: star; font-size: 18px;'>
+							<i @click='set_star(-1)' class='el-icon-remove-outline'></i>
+							<i v-for='star in max_star' @click='selected_star = star' :class='check_star_a(star)'></i>
+							<i @click='set_star(1)' class='el-icon-circle-plus-outline'></i>
+						</div>
+						<div style='grid-area: price; height: 100%; display: flex; flex-flow: column; flex-wrap: wrap;'>
+							<span>升星消耗</span>
+							<div v-for='sp in get_next_star_item()'>
+								<el-avatar
+									shape='square'
+								    style="margin: 1px; background: transparent;"
+								    :size="48"
+								    :src="get_icon(sp[0])"
+								></el-avatar>
+								x{{sp[1]}}
+							</div>
+						</div>
+					</div>
+				</el-card>
+			</div>
+            <el-dialog :visible.sync="open_view" title="机师列表" v-if="loaded" width="90%" :close-on-click-modal="false">
+                <el-avatar v-for="pilot in get_pilot_list()" @click.native="load_pilot_data(pilot, 1)" :src="get_default_head_icon(pilot.BasicSkin)" style="margin: 1px;" :size="64"></el-avatar>
+            </el-dialog>
+        </div>
+        <script src="js/skeleton_binary.js"></script>
+        <script src="js/basic_data.js"></script>
+        <script src="js/pilot.js"></script>
+    </body>
+</html>
