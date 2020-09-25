@@ -5,7 +5,7 @@ var data_lst_keys =
 	'GirlData',
 	'GirlSkinData',
 	'GirlStarData',
-	'GirlLevelData',
+	'GirllevelData',
 	'ItemData',
 	'MCVGirlSkillData',
 	'MCVNatureData',

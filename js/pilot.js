@@ -154,7 +154,7 @@ var app = new Vue({
             this.talent_list = this.get_talent_list();
             this.marry_status = this.get_marry_status();
             this.selected_level = 60;
-            this.pilot_level_data = fg_data.GirlLevelData.filter((x) => x.GirlId == pilot.ID);
+            this.pilot_level_data = fg_data.GirllevelData.filter((x) => x.GirlId == pilot.ID);
             this.pilot_star_data = fg_data.GirlStarData.find((x) => x.GirlId == pilot.ID && x.GirlStar == this.selected_star);
             this.reset_lp_lst();
             this.mcv_default_skill = this.get_mcv_default_skill();
