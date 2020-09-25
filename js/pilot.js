@@ -12,6 +12,16 @@ var app = new Vue({
         skin_loading: false,
         selected_star: 0,
         max_star: 0,
+        talent_list: undefined,
+        marry_status: undefined,
+        selected_level: -1,
+        pilot_level_data: undefined,
+        pilot_star_data: undefined,
+        lp_lst: [],
+        max_lp: 0,
+        mcv_default_skill: undefined,
+        mcv_nature_data: undefined,
+        mcv_nature_level: 1,
 
         skill_level: [],
         selected_pilot_skill_array: [],
@@ -25,6 +35,16 @@ var app = new Vue({
         spine_switch: true,
         now_scale: 0.5,
         spine_loaded: false,
+
+        property_color: {
+            "2": "#427F00",
+            "6": "#B40000",
+            "10": "#2249CE",
+            "14": "#791D88",
+            "18": "#A17F00",
+        },
+        now_nature: undefined,
+        nature: undefined,
     },
     watch: {
         now_scale: {
@@ -45,6 +65,30 @@ var app = new Vue({
                             this.skill_level.push(1);
                         }
                     }
+                }
+            },
+            immediate: true,
+        },
+        selected_level: {
+            handler: function (val, old) {
+                if (this.pilot_level_data) {
+                    let p2 = parseInt(val);
+                    if (val == "") {
+                        this.selected_level = 1;
+                    }
+                    if (p2 > this.pilot_level_data.length || p2 <= 0) {
+                        this.selected_level = parseInt(old);
+                    }
+                    this.reset_lp_lst();
+                }
+            },
+            immediate: true,
+        },
+        selected_star: {
+            handler: function (val, old) {
+                if (this.pilot_star_data) {
+                    this.pilot_star_data = fg_data.GirlStarData.find((x) => x.GirlId == this.selected_pilot.ID && x.GirlStar == val);
+                    this.reset_lp_lst();
                 }
             },
             immediate: true,
@@ -106,6 +150,20 @@ var app = new Vue({
             this.selected_star = pilot.BasicStarLevel;
             this.max_star = fg_data.GirlStarData.filter((x) => x.GirlId == pilot.ID).length;
             this.selected_pilot_skill_array = this.get_skill_array();
+            this.skill_level = [];
+            this.talent_list = this.get_talent_list();
+            this.marry_status = this.get_marry_status();
+            this.selected_level = 60;
+            this.pilot_level_data = fg_data.GirlLevelData.filter((x) => x.GirlId == pilot.ID);
+            this.pilot_star_data = fg_data.GirlStarData.find((x) => x.GirlId == pilot.ID && x.GirlStar == this.selected_star);
+            this.reset_lp_lst();
+            this.mcv_default_skill = this.get_mcv_default_skill();
+            this.mcv_nature_data = this.get_mcv_nature_data();
+            this.nature = this.calc_nature_table();
+            this.mcv_nature_level = 1;
+            if (this.nature.length > 0) {
+                this.now_nature = this.nature[0];
+            }
             for (let i in this.selected_pilot_skill_array) {
                 this.skill_level.push(1);
             }
@@ -214,7 +272,7 @@ var app = new Vue({
             return window.innerWidth > 700;
         },
         get_rarity(girl_quality_type) {
-            return "assets/rarity/" + rarity[girl_quality_type];
+            return "assets/rarity/" + girl_quality_type + ".png";
         },
         check_star_a(idx) {
             if (idx > this.selected_star) {
@@ -228,7 +286,7 @@ var app = new Vue({
             }
         },
         get_next_star_item() {
-            let b = fg_data.GirlStarData.find((x) => x.GirlId == this.selected_pilot.ID && x.GirlStar == this.selected_star);
+            let b = fg_data.GirlStarData.find((x) => x.GirlStar == this.selected_star && x.GirlId == this.selected_pilot.ID);
             if (b == undefined) {
                 return [];
             }
@@ -284,6 +342,101 @@ var app = new Vue({
             if (tmp + num > 0 && tmp + num <= this.selected_pilot_skill_array[idx].skills.length) {
                 this.skill_level[idx] = tmp + num;
                 this.$forceUpdate();
+            }
+        },
+        get_talent_list() {
+            let base_talent_id = fg_data.TalentSpecialData.find((x) => x.ID == this.selected_pilot.ID).SkillUp[0];
+            let talent_array = [base_talent_id, base_talent_id + 1, base_talent_id + 2];
+            let talent_skills = fg_data.TrunkSkillData.filter((x) => talent_array.indexOf(x.ID) != -1);
+            return talent_skills;
+        },
+        get_marry_status() {
+            let marry = this.selected_pilot.AffectionAttribute;
+            let attr_lst = [];
+            for (let idx in marry.keys) {
+                let p = fg_data.PropertyData.find((x) => x.ID == marry.keys[idx]);
+                let num = marry.values[idx];
+                if (p.DateType == "float") {
+                    num = Number(num * 100).toFixed(2) + "%";
+                }
+                attr_lst.push(p.Name + "+" + num);
+            }
+            return attr_lst;
+        },
+        set_selected_level(ps) {
+            this.selected_level += parseInt(ps);
+        },
+        calc_property_name(id) {
+            return fg_data.PropertyData.find((x) => x.ID == id).Name;
+        },
+        calc_property_v(id, ori) {
+            let lv = this.pilot_level_data.find((x) => x.Level == this.selected_level);
+            let p = lv.GirlProperty.keys.indexOf(lv.GirlProperty.keys.find((x) => x == id));
+            let val = lv.GirlProperty.values[p];
+            return ori + val;
+        },
+        reset_lp_lst() {
+            this.lp_lst = [];
+            let tmp = [];
+            for (let i in this.pilot_star_data.GirlStarProperty.keys) {
+                let b = this.calc_property_v(this.pilot_star_data.GirlStarProperty.keys[i], this.pilot_star_data.GirlStarProperty.values[i]);
+                tmp.push(b);
+                this.lp_lst.push({ key: this.pilot_star_data.GirlStarProperty.keys[i], value: b });
+            }
+            this.max_lp = Math.max.apply(null, tmp);
+        },
+        get_trunk_skill(skill_id) {
+            return fg_data.TrunkSkillData.find((x) => x.ID == skill_id);
+        },
+        get_equip_sub_type(id) {
+            return equip_sub_type[id];
+        },
+        get_profession(id) {
+            return profession_type[id];
+        },
+        get_camp(id) {
+            return camp[id];
+        },
+        get_kindness_gift() {
+            let p = [];
+            for (let i in this.selected_pilot.FavoriteArticles) {
+                p.push(kindness_gift[this.selected_pilot.FavoriteArticles[i]]);
+            }
+            return p.join("、");
+        },
+        get_mcv_default_skill() {
+            return fg_data.MCVGirlSkillData.find((x) => x.ID == this.selected_pilot.DefaultSkill);
+        },
+        get_mcv_nature_data() {
+            return fg_data.MCVNatureIdData.find((x) => x.ID == this.selected_pilot.MainNature);
+        },
+        calc_nature_table() {
+            let tmp_nature = [];
+            let nature_lst = [];
+            let ftmp = fg_data.MCVNatureData.filter((x) => x.GirlID == this.selected_pilot.ID);
+            for (let i in ftmp) {
+                nature_lst.push(ftmp[i].NatureID);
+            }
+            for (let i in nature_lst) {
+                let pp = fg_data.MCVNatureIdData.find((x) => x.ID == nature_lst[i]);
+                let name = this.calc_language(pp.Desc);
+                let parr = [];
+                ftmp = fg_data.MCVNatureUnlockSkillData.filter((x) => x.NatureID == nature_lst[i] && x.GirlID == this.selected_pilot.ID);
+                for (let i in ftmp) {
+                    parr.push(fg_data.MCVGirlSkillData.find((x) => x.ID == ftmp[i].SkillID));
+                }
+                tmp_nature.push({
+                    key: name,
+                    value: parr,
+                    color: pp.Color,
+                });
+            }
+            return tmp_nature;
+        },
+        set_mcv_skill_lv(lv) {
+            let l = parseInt(lv);
+            if (this.mcv_nature_level + l > 0 && this.mcv_nature_level + l <= this.now_nature.value.length) {
+                this.mcv_nature_level += l;
             }
         },
         start_spine() {},

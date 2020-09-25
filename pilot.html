@@ -77,6 +77,27 @@
         .locked_skill {
             filter: grayscale(100%);
         }
+        .attribute_table,
+        .attribute_table tr,
+        .attribute_table tr td {
+            border: 1px solid #e6eaee;
+            text-align: center;
+        }
+        .attribute_table tr td {
+            border: 1px solid #e6eaee;
+            width: 25%;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+        .attribute_table tr td.column {
+            background-color: #eff3f6;
+            color: #393c3e;
+        }
+        .normal_flex_list {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
     </style>
     <body>
         <div id="fgPilot" v-loading="!loaded" style="max-width: 1000px;">
@@ -90,7 +111,7 @@
             </div>
             <el-card style="margin-top: 10px;" v-if="selected_pilot" v-loading="skin_loading">
                 <div slot="header" class="clearfix">
-                    皮肤
+                    <span>皮肤</span>
                 </div>
                 <el-avatar v-for="pilot in get_skin_list(selected_pilot.ID)" @click.native="load_pilot_data(selected_pilot, pilot.Skin)" style="margin: 1px;" :size="48" :src="get_skin_icon(pilot.GirlId, pilot.Skin)"></el-avatar>
                 <!--el-row v-if="check_width()">
@@ -117,7 +138,7 @@
                             <el-switch class="spine_btn" v-model="spine_switch" active-color="#13ce66" inactive-color="#ff4949"> </el-switch>
                         </div>
                     </div>
-                    <div id="spine" v-show="spine_switch">
+                    <div id="spine" v-show="spine_switch" v-loading="skin_loading">
                         <div style="position: absolute; left: 30px;">
                             <el-button type="text" @click="now_scale += 0.05"><i style="font-size: 36px;" class="el-icon-zoom-in"></i></el-button>
                             <el-button type="text" @click="now_scale -= 0.05"><i style="font-size: 36px;" class="el-icon-zoom-out"></i></el-button>
@@ -126,7 +147,7 @@
                 </el-card>
             </div>
             <div v-if="selected_skin">
-                <el-card style="margin-top: 10px;" id="pilot_info">
+                <el-card style="margin-top: 10px;">
                     <div class="pilot_info_div">
                         <div class="pilot_img">
                             <img class="grid_img" :src="get_skin_square_head()" border="1" />
@@ -154,18 +175,187 @@
                         </div>
                         <div style="grid-area: detail;">
                             <hr v-if="!check_width()" />
-                            <div v-if="check_width()" style="float: left; width: 1px; height: 100%; background: darkgray;"></div>
                             <div class="pilot_msg" style="white-space: pre-wrap;">{{calc_language(selected_pilot.Autobiography)}}</div>
                         </div>
                     </div>
                 </el-card>
-                <div style="margin: 10px;" v-if="selected_pilot">
+                <table class="attribute_table" width="100%" style="margin-top: 10px;">
+                    <tr>
+                        <td class="column">职业</td>
+                        <td>
+                            <div class="normal_flex_list">
+                                <img :src='"assets/class/" + get_profession(selected_pilot.ProfessionType) + ".png"' style="background: black;" width="54" height="50" />
+                                <span>{{get_profession(selected_pilot.ProfessionType)}}</span>
+                            </div>
+                        </td>
+                        <td class="column">阵营</td>
+                        <td>
+                            <div class="normal_flex_list">
+                                <img :src='"assets/camp/" + selected_pilot.GirlCampIcon + "_big.png"' width="50" height="50" />
+                                <span>{{get_camp(selected_pilot.GirlCamp)}}</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="column">武器</td>
+                        <td>{{get_equip_sub_type(selected_pilot.WeaponRecommend)}}</td>
+                        <td class="column">胸甲</td>
+                        <td>{{get_equip_sub_type(selected_pilot.ChestRecommend)}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">腿甲</td>
+                        <td>{{get_equip_sub_type(selected_pilot.LegRecommend)}}</td>
+                        <td class="column">挂载</td>
+                        <td>{{get_equip_sub_type(selected_pilot.BagRecommend)}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">誓约效果</td>
+                        <td>
+                            <div v-for="marry in marry_status">
+                                <span>{{marry}}</span>
+                            </div>
+                        </td>
+                        <td class="column">偏好礼物</td>
+                        <td>{{get_kindness_gift()}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">职位</td>
+                        <td>{{calc_language(selected_pilot.GirlJob)}}</td>
+                        <td class="column">CV</td>
+                        <td>{{calc_language(selected_pilot.CV)}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">性别</td>
+                        <td>{{calc_language(selected_pilot.Gender)}}</td>
+                        <td class="column">年龄</td>
+                        <td>{{selected_pilot.Age}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">出生地</td>
+                        <td>{{calc_language(selected_pilot.BirthLocal)}}</td>
+                        <td class="column">身高</td>
+                        <td>{{selected_pilot.GirlHeight}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">血型</td>
+                        <td>{{selected_pilot.BloodType}}</td>
+                        <td class="column">生日</td>
+                        <td>{{selected_pilot.Birthday}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">星座</td>
+                        <td>{{calc_language(selected_pilot.Constellation)}}</td>
+                        <td class="column">兴趣</td>
+                        <td>{{calc_language(selected_pilot.Hobby)}}</td>
+                    </tr>
+                    <tr>
+                        <td class="column">喜欢</td>
+                        <td>{{calc_language(selected_pilot.LikeThing)}}</td>
+                        <td class="column">讨厌</td>
+                        <td>{{calc_language(selected_pilot.GirlHate)}}</td>
+                    </tr>
+                </table>
+                <div style="margin: 10px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span>机师属性</span>
+                        <div style="display: flex; flex-flow: row; justify-content: space-between; align-items: center;">
+                            <i @click="set_selected_level(-1)" class="el-icon-arrow-left"></i>
+                            <span style="font-size: 16px;">Lv.</span>
+                            <el-input type="number" v-model="selected_level" style="width: 100px;"></el-input>
+                            <i @click="set_selected_level(1)" class="el-icon-arrow-right"></i>
+                        </div>
+                    </div>
+                    <hr />
+                    <div v-if="lp_lst">
+                        <div style="display: flex; padding: 10px;" v-for="lp in lp_lst">
+                            <span>{{calc_property_name(lp.key)}}</span>
+                            <div style="margin-left: 10px; flex-grow: 1; border: 1px solid black; text-align: center; position: relative;">
+                                <div style="height: 100%; position: absolute;" v-bind:style='{width: (lp.value * 100 / max_lp) + "%", background: property_color[lp.key]}'></div>
+                                <span style="position: relative; color: white;">{{lp.value}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 10px;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>机师特长</span>
+                        <span>{{selected_pilot.GirlGood}}</span>
+                    </div>
+                    <hr />
+                    <span>{{calc_language(get_trunk_skill(selected_pilot.ExpertSkillWeapeon).TrunkSkillDesc)}}</span>
+                    <br />
+                    <span>{{calc_language(get_trunk_skill(selected_pilot.ExpertSkillEquip).TrunkSkillDesc)}}</span>
+                </div>
+                <div style="margin: 10px;">
+                    <span>机师天性</span>
+                    <hr />
+                    <div style="display: flex; padding: 10px;">
+                        <div style="width: 96px; border-radius: 10px; text-align: center; color: white; border: 1px solid black;" :style='{background: "rgba(" + mcv_nature_data.Color + ")"}'>
+                            <span>{{calc_language(mcv_nature_data.Desc)}}</span>
+                        </div>
+                        <span style="margin-left: 10px;">机师主天性</span>
+                    </div>
+                    <div style="display: flex; padding: 10px;">
+                        <div style="display: flex; flex-flow: column; max-width: 96px;">
+                            <el-avatar :src="'assets/icon/item/' + mcv_default_skill.SkillIcon + '.png'" shape="square" style="background: lightgrey; width: 96px; height: 96px;"></el-avatar>
+                            <span style="text-align: center;">{{calc_language(mcv_default_skill.SkillName)}}</span>
+                        </div>
+                        <div style="margin-left: 10px;">
+                            <span>
+                                默认天赋：<br />
+                                {{calc_language(mcv_default_skill.SkillDesc)}}
+                            </span>
+                        </div>
+                    </div>
+                    <div style="display: flex; padding: 10px; flex-flow: column;">
+                        <div style="display: flex; flex-flow: row; justify-content: space-between; width: 100%; text-align: center;">
+                            <div
+                                @click="now_nature = nature_data"
+                                :id="nature_data.key"
+                                v-for="nature_data in nature"
+                                style="border-radius: 10px; text-align: center; color: white;"
+                                :style='{background: "rgba(" + nature_data.color + ")", width: (100 / nature.length) + "%", border: now_nature.key == nature_data.key ? "2px solid black" : "0px"}'
+                            >
+                                <span>{{nature_data.key}}</span>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-flow: column; margin-top: 5px;">
+                            <div style="display: flex; fex-flow: row; padding-top: 5px;">
+                                <div style="display: flex; flex-flow: column; max-width: 96px; text-align: center;">
+                                    <img :src='"assets/icon/item/" + now_nature.value[mcv_nature_level - 1].SkillIcon + ".png"' width="96" height="96" style="background: lightgray;" />
+                                    <span>{{calc_language(now_nature.value[mcv_nature_level - 1].SkillName)}}</span>
+                                    <div style="display: flex; flex-flow: row; justify-content: space-between; align-items: center;">
+                                        <i @click="set_mcv_skill_lv(-1)" class="el-icon-arrow-left"></i>
+                                        <span style="font-size: 16px;">Lv.{{mcv_nature_level}}</span>
+                                        <i @click="set_mcv_skill_lv(1)" class="el-icon-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <span style="margin-left: 10px;">{{calc_language(now_nature.value[mcv_nature_level - 1].SkillDesc)}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 10px;">
+                    <span>天赋</span>
+                    <hr />
+                    <div>
+                        <div style="display: flex; padding: 10px;">
+                            <div style="display: flex; flex-flow: column; max-width: 96px;">
+                                <img src="assets/icon/item/82020331.png" width="96" height="96" />
+                            </div>
+                            <div style="margin-left: 10px; white-space: pre-wrap;">
+                                <span v-for="(talent, idx) in talent_list">{{calc_language(talent_list[idx].TrunkSkillName) + '：\n' + calc_language(talent.TrunkSkillDesc) + '\n'}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 10px;">
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span>技能</span>
                         <el-switch v-if="selected_pilot_skill_array" v-model="unpacker_mode" active-color="#13ce66" inactive-color="#ff4949" active-text="解包模式" inactive-text="常规模式"></el-switch>
                     </div>
-                    <hr />
-                    <div class="skill_info" v-for="(skill, idx) in selected_pilot_skill_array">
+                    <div v-for="(skill, idx) in selected_pilot_skill_array">
+                        <hr />
                         <div style="display: flex; padding: 10px;">
                             <div style="display: flex; flex-flow: column; max-width: 96px;">
                                 <img :src="get_skill_icon(selected_pilot_skill_array[idx].skills[0].TrunkSkillIcon)" :class='skill.level > selected_star ? "locked_skill" : ""' width="96" height="96" />
@@ -177,12 +367,16 @@
                                     <i @click="set_skill_lv(idx, 1)" class="el-icon-arrow-right"></i>
                                 </div>
                             </div>
-                            <div id="skill_msg" style="margin-left: 10px; white-space: pre-wrap;">
+                            <div style="margin-left: 10px; white-space: pre-wrap;">
                                 <span>{{calc_language(selected_pilot_skill_array[idx].skills[skill_level[idx] - 1].TrunkSkillDesc)}}</span>
                             </div>
                         </div>
-                        <hr />
                     </div>
+                </div>
+                <div style="margin: 10px;">
+                    <span>专用机</span>
+                    <hr />
+                    <span>TODO</span>
                 </div>
             </div>
             <el-dialog :visible.sync="open_view" title="机师列表" v-if="loaded" width="90%" :close-on-click-modal="false">
