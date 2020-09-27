@@ -2,20 +2,24 @@ var lang = 'sc' //I18N
 var data_lst_keys = 
 [
 	'TrunkSkillData',
+	'EquipPilotData',
+	'EquipLegData',
 	'GirlData',
 	'GirlSkinData',
 	'GirlStarData',
 	'GirllevelData',
 	'ItemData',
+	'MachineArmorData',
 	'MCVGirlSkillData',
 	'MCVNatureData',
 	'MCVNatureIdData',
 	'MCVNatureUnlockSkillData',
 	'SkillArrayData',
+	'SuitData',
 	'TalentSpecialData',
 	'LanguageData',
 	'PropertyData',
-	'StoryJsonDatas'
+	'WidgetData'
 ]
 var fg_data = {}
 async function load_basic_data(file_name)
@@ -115,4 +119,14 @@ var kindness_gift =
 	"食物",
 	"玩具",
 	"通用"
+]
+
+var hit_grade = 
+[
+	0,
+	140,
+	190,
+	240,
+	290,
+	340
 ]

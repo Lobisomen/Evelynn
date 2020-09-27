@@ -21,7 +21,7 @@
         .x_y_input {
             margin-left: 3px;
         }
-        .el-card#spine_card .el-card__body {
+        .spine_card .el-card__body {
             padding: 0px;
         }
         .el-dialog {
@@ -98,6 +98,11 @@
             flex-flow: column;
             align-items: center;
         }
+        .suit {
+            padding: 5px;
+            display: flex;
+            flex-flow: column;
+        }
     </style>
     <body>
         <div id="fgPilot" v-loading="!loaded" style="max-width: 1000px;">
@@ -109,29 +114,27 @@
             <div>
                 <el-button type="primary" style="width: 100%; margin-top: 10px;" @click="open_view = true"> 机师列表<i class="el-icon-arrow-down el-icon--right"></i> </el-button>
             </div>
+            <center v-if="!selected_pilot">本工具包含未实装内容，实际属性以实装后为准。</center>
             <el-card style="margin-top: 10px;" v-if="selected_pilot" v-loading="skin_loading">
                 <div slot="header" class="clearfix">
                     <span>皮肤</span>
                 </div>
-                <el-avatar v-for="pilot in get_skin_list(selected_pilot.ID)" @click.native="load_pilot_data(selected_pilot, pilot.Skin)" style="margin: 1px;" :size="48" :src="get_skin_icon(pilot.GirlId, pilot.Skin)"></el-avatar>
-                <!--el-row v-if="check_width()">
-                    <el-col :span="8" v-for="pilot in get_skin_list(selected_pilot.ID)">
-                        <el-card @click.native="load_pilot_data(selected_pilot, pilot.Skin)" style="margin: 2px;">
-                            <el-avatar :src="get_skin_icon(pilot.GirlId, pilot.Skin)" style="margin: 1px; float: left;" :size="64"></el-avatar>
-                            <div style="border: 24px solid transparent;">
-                                <span style="margin-left: 10px;">{{calc_language(pilot.SkinName)}}</span>
-                            </div>
-                        </el-card>
-                    </el-col>
-                </el-row-->
+                <el-avatar
+                    v-for="(pilot, index) in get_skin_list(selected_pilot.ID)"
+                    :key="index"
+                    @click.native="load_pilot_data(selected_pilot, pilot.Skin)"
+                    style="margin: 1px;"
+                    :size="48"
+                    :src="get_skin_icon(pilot.GirlId, pilot.Skin)"
+                ></el-avatar>
             </el-card>
             <div v-show="selected_skin">
-                <el-card style="margin-top: 10px;" class="box-card" id="spine_card">
+                <el-card style="margin-top: 10px;" class="box-card spine_card">
                     <div slot="header" class="clearfix pilot_spine_header">
                         <span style="grid-area: text; margin-top: 8px;">立绘</span>
-                        <el-input type="number" style="grid-area: xp;" class="x_y_input" v-if="spine" placeholder="x" v-model.number="spine.position.x"></el-input>
-                        <el-input type="number" style="grid-area: yp;" class="x_y_input" v-if="spine" placeholder="y" v-model.number="spine.position.y"></el-input>
-                        <el-input type="number" style="grid-area: scale;" class="x_y_input" v-if="spine" v-show="check_width()" placeholder="放大倍数" v-model.number="now_scale" :min="0"></el-input>
+                        <el-input type="number" style="grid-area: xp;" class="x_y_input" v-if="spine_model" placeholder="x" v-model.number="spine_model.position.x"></el-input>
+                        <el-input type="number" style="grid-area: yp;" class="x_y_input" v-if="spine_model" placeholder="y" v-model.number="spine_model.position.y"></el-input>
+                        <el-input type="number" style="grid-area: scale;" class="x_y_input" v-if="spine_model" v-show="check_width()" placeholder="放大倍数" v-model.number="now_scale" :min="0"></el-input>
                         <div style="grid-area: btn;">
                             <!--el-button class="spine_icon" type="text" @click="now_scale -= 0.05"><i class="el-icon-zoom-out"></i></el-button>
 							<el-button class="spine_icon" type="text" @click="now_scale += 0.05"><i class="el-icon-zoom-in"></i></el-button-->
@@ -139,7 +142,7 @@
                         </div>
                     </div>
                     <div id="spine" v-show="spine_switch" v-loading="skin_loading">
-                        <div style="position: absolute; left: 30px;">
+                        <div style="position: absolute; left: 30px; display: flex; flex-flow: row; align-items: center;">
                             <el-button type="text" @click="now_scale += 0.05"><i style="font-size: 36px;" class="el-icon-zoom-in"></i></el-button>
                             <el-button type="text" @click="now_scale -= 0.05"><i style="font-size: 36px;" class="el-icon-zoom-out"></i></el-button>
                         </div>
@@ -373,14 +376,85 @@
                         </div>
                     </div>
                 </div>
-                <div style="margin: 10px;">
+                <div style="margin: 10px;" v-loading="mcv_loading">
+                    <span>机师模型</span>
+                    <hr />
+                    <el-card style="margin-top: 10px;" class="box-card spine_card">
+                        <div slot="header" class="clearfix">
+                            <select v-if="mcv_spine" v-model="mcv_now_animation" @change="set_mcv_animation" style="width: 100%;">
+                                <option v-for="(anim, idx) in mcv_spine.spineData.animations" :value="anim.name">{{anim.name}}</option>
+                            </select>
+                        </div>
+                        <div id="mcv_spine" style="border: 1px solid black;">
+                            <div style="position: absolute; left: 30px;">
+                                <el-button type="text" @click="now_mcv_scale += 0.1"><i style="font-size: 36px;" class="el-icon-zoom-in"></i></el-button>
+                                <el-button type="text" @click="now_mcv_scale -= 0.1"><i style="font-size: 36px;" class="el-icon-zoom-out"></i></el-button>
+                            </div>
+                        </div>
+                    </el-card>
+                </div>
+                <div style="margin: 10px;" v-if="suit_data">
                     <span>专用机</span>
                     <hr />
-                    <span>TODO</span>
+                    <el-card style="margin-top: 10px;" class="box-card spine_card" v-loading="suit_loading">
+                        <div slot="header" class="clearfix">
+                            <select v-if="suit_spine" v-model="suit_now_animation" @change="set_suit_animation" style="width: 100%;">
+                                <option v-for="(anim, idx) in suit_spine.spineData.animations" :value="anim.name">{{anim.name}}</option>
+                            </select>
+                        </div>
+                        <div id="suit_spine" style="border: 1px solid black;">
+                            <div style="position: absolute; left: 30px;">
+                                <el-button type="text" @click="now_suit_scale += 0.1"><i style="font-size: 36px;" class="el-icon-zoom-in"></i></el-button>
+                                <el-button type="text" @click="now_suit_scale -= 0.1"><i style="font-size: 36px;" class="el-icon-zoom-out"></i></el-button>
+                            </div>
+                        </div>
+                    </el-card>
+                    <div style="margin-top: 10px;" class="normal_flex_list">
+                        <span style="background: #eff3f6; width: 100%; text-align: center; border: 1px solid #e6eaee; box-sizing: border-box; padding: 5px;">{{calc_language(suit_data.SuitName)}}</span>
+                        <table class="attribute_table" width="100%">
+                            <tr>
+                                <td class="column">设计</td>
+                                <td>{{calc_language(suit_data.Designer)}}</td>
+                                <td class="column">制造</td>
+                                <td>{{calc_language(suit_data.Manufacturer)}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <span style="margin-top: 5px;">{{calc_language(suit_data.Disc)}}</span>
+                    <div style="border: 1px solid black; margin-top: 5px;">
+                        <div class="suit">
+                            <span>两件套效果</span>
+                            <span style="white-space: pre-wrap;">{{calc_language(suit_data.Suit2Desc)}}</span>
+                        </div>
+                        <div class="suit">
+                            <span>四件套效果</span>
+                            <span style="white-space: pre-wrap;">{{calc_language(suit_data.Suit4Desc)}}</span>
+                        </div>
+                        <div class="suit">
+                            <span>套装激活效果</span>
+                            <span style="white-space: pre-wrap;">{{calc_language(suit_data.Suit5Desc)}}</span>
+                        </div>
+                        <div class="suit">
+                            <span>一体机数据</span>
+                            <div style="display: flex; flex-flow: column; padding-left: 5px;" v-for="armor_data in get_machine_armor_data()">
+                                <span v-if="armor_data.DistanceType != 1">弹匣容量：{{armor_data.Clip}}</span>
+                                <span v-if="armor_data.ReloadType == 1">换弹时间：{{armor_data.ReloadTime / 1000.0}}s</span>
+                                <span>攻击速度：{{armor_data.WeaponSpeed}}次/s</span>
+                                <span>单发回蓝：{{Number(armor_data.Trigger).toFixed(4) * 200}}</span>
+                                <span>武器倍率：{{Number(armor_data.BulletlAggRatio[0] * 100).toFixed(2)}}%</span>
+                                <div v-if="suit_compare && suit_compare[0] != suit_compare[1]">
+                                    <span>抗冲击：</span>
+                                    <span>{{suit_compare[0]}}[Lv.{{calc_hit_grade(suit_compare[0])}}]</span>
+                                    <span :style='{color: suit_compare[0] > suit_compare[1] ? "blue" : "red"}'>→</span>
+                                    <span>{{suit_compare[1]}}[Lv.{{calc_hit_grade(suit_compare[1])}}]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <el-dialog :visible.sync="open_view" title="机师列表" v-if="loaded" width="90%" :close-on-click-modal="false">
-                <el-avatar v-for="pilot in get_pilot_list()" @click.native="load_pilot_data(pilot, 1)" :src="get_default_head_icon(pilot.BasicSkin)" style="margin: 1px;" :size="64"></el-avatar>
+                <el-avatar v-for="(pilot, index) in get_pilot_list()" :key="index" @click.native="load_pilot_data(pilot, 1)" :src="get_default_head_icon(pilot.BasicSkin)" style="margin: 1px;" :size="64"></el-avatar>
             </el-dialog>
         </div>
         <script src="js/skeleton_binary.js"></script>

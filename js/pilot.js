@@ -31,10 +31,9 @@ var app = new Vue({
         mouse: false,
         last_mouse_x: 0,
         last_mouse_y: 0,
-        spine: undefined,
+        spine_model: undefined,
         spine_switch: true,
         now_scale: 0.5,
-        spine_loaded: false,
 
         property_color: {
             "2": "#427F00",
@@ -45,12 +44,44 @@ var app = new Vue({
         },
         now_nature: undefined,
         nature: undefined,
+
+        mcv_spine_application: new PIXI.Application({ width: 1920, height: 1080, transparent: true }),
+        mcv_spine: undefined,
+        mcv_now_animation: "idle",
+        now_mcv_scale: 2,
+        mcv_loading: false,
+
+        suit_spine_application: new PIXI.Application({ width: 1920, height: 1080, transparent: true }),
+        suit_spine: undefined,
+        suit_now_animation: "idle",
+        now_suit_scale: 0.8,
+        suit_loading: false,
+
+        suit_data: undefined,
+        suit_leg: undefined,
+        suit_compare: undefined,
     },
     watch: {
         now_scale: {
             handler: function (val, old) {
                 if (this.spine) {
                     this.spine.scale.set(val);
+                }
+            },
+            immediate: true,
+        },
+        now_mcv_scale: {
+            handler: function (val, old) {
+                if (this.mcv_spine) {
+                    this.mcv_spine.scale.set(val);
+                }
+            },
+            immediate: true,
+        },
+        now_suit_scale: {
+            handler: function (val, old) {
+                if (this.suit_spine) {
+                    this.suit_spine.scale.set(val);
                 }
             },
             immediate: true,
@@ -100,12 +131,14 @@ var app = new Vue({
         window.onresize = function () {
             self.$forceUpdate();
             self.reset_pixi_view(self.pixi);
+            self.reset_pixi_view(self.mcv_spine_application);
+            self.reset_pixi_view(self.suit_spine_application);
         };
         this.pixi = new PIXI.Application({ width: 1920, height: 1080, transparent: true });
     },
     methods: {
-        reset_pixi_view(pixi) {
-            let p = window.innerWidth > 1000 ? 1000 : window.innerWidth;
+        reset_pixi_view(pixi, max = 1000) {
+            let p = $(window).width() > max ? max : $(window).width();
             pixi.view.style.width = p + "px";
             pixi.view.style.height = (p * 9) / 16 + "px";
         },
@@ -142,6 +175,12 @@ var app = new Vue({
             return "assets/icon/square/" + this.selected_skin.HeadIcon_square + ".png";
         },
         load_pilot_data(pilot, skin_id) {
+            if (this.selected_pilot) {
+                if (pilot.ID == this.selected_pilot.ID && skin_id == this.selected_skin_id) {
+                    return;
+                }
+                this.left_id = this.selected_pilot.ID;
+            }
             this.skin_loading = true;
             this.open_view = false;
             this.selected_pilot = pilot;
@@ -160,6 +199,7 @@ var app = new Vue({
             this.mcv_default_skill = this.get_mcv_default_skill();
             this.mcv_nature_data = this.get_mcv_nature_data();
             this.nature = this.calc_nature_table();
+            this.mcv_loading = true;
             this.mcv_nature_level = 1;
             if (this.nature.length > 0) {
                 this.now_nature = this.nature[0];
@@ -167,94 +207,59 @@ var app = new Vue({
             for (let i in this.selected_pilot_skill_array) {
                 this.skill_level.push(1);
             }
+            this.suit_data = this.get_suit_data();
             this.$forceUpdate();
-            let b = document.querySelector("#spine");
-            if (!this.spine_loaded) {
-                b.appendChild(this.pixi.view);
-            }
             let self = this;
             let app = this.pixi;
             let skin = fg_data.GirlSkinData.find((x) => x.Skin == skin_id && x.GirlId == pilot.ID);
             axios.get("assets/spine/" + skin.Cartoon + "/spine.json").then((resp) => {
-                this.pixi.loader
+                app.loader
                     .add("spine", "assets/spine/" + skin.Cartoon + "/" + resp.data.skel, { xhrType: "arraybuffer" })
                     .add("atlas", "assets/spine/" + skin.Cartoon + "/" + resp.data.atlas, { type: "atlas" })
                     .add("tex", "assets/spine/" + skin.Cartoon + "/" + resp.data.texture + ".png")
                     .load(function (loader, res) {
-                        let p = new SkeletonBinary();
-                        p.data = new Uint8Array(res["spine"].data);
-                        p.initJson();
-                        let rawAtlasData = res["atlas"].data;
-                        let spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function (line, callback) {
-                            let tex = PIXI.BaseTexture.from("tex");
-                            let size = self.read_real_texture_size(rawAtlasData);
-                            tex.width = size[0];
-                            tex.height = size[1];
-                            callback(tex);
-                        });
-                        let spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
-                        let spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
-                        let skeletonData = spineJsonParser.readSkeletonData(p.json);
-                        let spine = new PIXI.spine.Spine(skeletonData);
-                        self.spine = spine;
-                        let animations = spine.spineData.animations;
-
-                        spine.state.addAnimation(0, "idle", true);
-                        let h = parseInt(spine.height * self.now_scale);
-                        spine.position.set(1000, h);
-                        for (let i = 0; i < app.stage.children.length; i++) {
-                            app.stage.removeChild(app.stage.children[i]);
-                        }
-                        app.stage.addChild(spine);
-                        self.last_mouse_x = 0;
-                        self.last_mouse_y = 0;
-                        if (!self.spine_loaded) {
-                            $(app.view).mousedown(() => {
-                                self.mouse = true;
-                                self.last_mouse_x = event.clientX - event.target.getBoundingClientRect().left;
-                                self.last_mouse_y = event.clientY - event.target.getBoundingClientRect().top;
-                            });
-                            $(app.view).mouseup(() => {
-                                self.mouse = false;
-                            });
-                            $(app.view).mousemove((event) => {
-                                let sx = event.clientX - event.target.getBoundingClientRect().left;
-                                let sy = event.clientY - event.target.getBoundingClientRect().top;
-                                if (self.mouse) {
-                                    self.spine.position.set(sx - self.last_mouse_x + self.spine.position._x, sy - self.last_mouse_y + self.spine.position._y);
-                                    self.last_mouse_x = sx;
-                                    self.last_mouse_y = sy;
-                                }
-                            });
-                            $(app.view).mouseout(() => {
-                                self.mouse = false;
-                            });
-                            $(app.view).on("touchstart", (event) => {
-                                self.mouse = true;
-                                self.last_mouse_x = event.touches[0].clientX - event.target.getBoundingClientRect().left;
-                                self.last_mouse_y = event.touches[0].clientY - event.target.getBoundingClientRect().top;
-                            });
-                            $(app.view).on("touchend", (event) => {
-                                self.mouse = false;
-                            });
-                            $(app.view).on("touchmove", (event) => {
-                                let sx = event.touches[0].clientX - event.target.getBoundingClientRect().left;
-                                let sy = event.touches[0].clientY - event.target.getBoundingClientRect().top;
-                                if (self.mouse) {
-                                    self.spine.position.set(sx - self.last_mouse_x + self.spine.position._x, sy - self.last_mouse_y + self.spine.position._y);
-                                    self.last_mouse_x = sx;
-                                    self.last_mouse_y = sy;
-                                }
-                            });
-                            app.start();
+                        let spine = self.init_spine_data(res);
+                        self.spine_model = spine;
+                        spine.state.setAnimation(0, "idle", true);
+                        spine.position.set(1000, parseInt(spine.height * self.now_scale));
+                        self.clear_app_stage(app, spine);
+                        if ($("#spine canvas").length == 0) {
+                            self.set_spine_event(app, "spine_model");
+                            document.querySelector("#spine").appendChild(app.view);
                         }
                         self.reset_pixi_view(self.pixi);
-                        self.spine.scale.set(self.now_scale);
+                        self.spine_model.scale.set(self.now_scale);
                         self.skin_loading = false;
-                        self.spine_loaded = true;
-                        self.pixi.loader.reset();
+                        app.loader.reset();
+                        PIXI.utils.clearTextureCache();
+                        self.start_mcv_spine();
                     });
             });
+        },
+        clear_app_stage(app, spine) {
+            for (let i = 0; i < app.stage.children.length; i++) {
+                app.stage.removeChild(app.stage.children[i]);
+            }
+            app.stage.addChild(spine);
+        },
+        init_spine_data(res) {
+            let self = this;
+            let p = new SkeletonBinary();
+            p.data = new Uint8Array(res["spine"].data);
+            p.initJson();
+            let rawAtlasData = res["atlas"].data;
+            let spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function (line, callback) {
+                let tex = PIXI.BaseTexture.from("tex");
+                let size = self.read_real_texture_size(rawAtlasData);
+                tex.width = size[0];
+                tex.height = size[1];
+                callback(tex);
+            });
+            let spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
+            let spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
+            let skeletonData = spineJsonParser.readSkeletonData(p.json);
+            let spine = new PIXI.spine.Spine(skeletonData);
+            return spine;
         },
         get_pilot_list() {
             return fg_data.GirlData.filter((fg_girl) => fg_girl.ID < 7000);
@@ -439,6 +444,132 @@ var app = new Vue({
                 this.mcv_nature_level += l;
             }
         },
-        start_spine() {},
+        set_mcv_animation() {
+            this.mcv_spine.state.setAnimation(0, this.mcv_now_animation, true);
+        },
+        set_suit_animation() {
+            this.suit_spine.state.setAnimation(0, this.suit_now_animation, true);
+        },
+        set_spine_event(app, spine_name) {
+            let self = this;
+            $(app.view).mousedown(() => {
+                self.mouse = true;
+                self.last_mouse_x = event.clientX - event.target.getBoundingClientRect().left;
+                self.last_mouse_y = event.clientY - event.target.getBoundingClientRect().top;
+            });
+            $(app.view).mouseup(() => {
+                self.mouse = false;
+            });
+            $(app.view).mousemove((event) => {
+                let sx = event.clientX - event.target.getBoundingClientRect().left;
+                let sy = event.clientY - event.target.getBoundingClientRect().top;
+                if (self.mouse) {
+                    let spine = self[spine_name];
+                    spine.position.set(sx - self.last_mouse_x + spine.position._x, sy - self.last_mouse_y + spine.position._y);
+                    self.last_mouse_x = sx;
+                    self.last_mouse_y = sy;
+                }
+            });
+            $(app.view).mouseout(() => {
+                self.mouse = false;
+            });
+            $(app.view).on("touchstart", (event) => {
+                self.mouse = true;
+                self.last_mouse_x = event.touches[0].clientX - event.target.getBoundingClientRect().left;
+                self.last_mouse_y = event.touches[0].clientY - event.target.getBoundingClientRect().top;
+            });
+            $(app.view).on("touchend", (event) => {
+                self.mouse = false;
+            });
+            $(app.view).on("touchmove", (event) => {
+                let sx = event.touches[0].clientX - event.target.getBoundingClientRect().left;
+                let sy = event.touches[0].clientY - event.target.getBoundingClientRect().top;
+                if (self.mouse) {
+                    let spine = self[spine_name];
+                    spine.position.set(sx - self.last_mouse_x + spine.position._x, sy - self.last_mouse_y + spine.position._y);
+                    self.last_mouse_x = sx;
+                    self.last_mouse_y = sy;
+                }
+            });
+        },
+        start_mcv_spine() {
+            let model = fg_data.EquipPilotData.find((x) => x.ID == this.selected_skin.ModelID).prefab;
+            let self = this;
+            let app = this.mcv_spine_application;
+            axios.get("assets/pilot/" + model + "/spine.json").then((resp) => {
+                app.loader
+                    .add("spine", "assets/pilot/" + model + "/" + resp.data.skel, { xhrType: "arraybuffer" })
+                    .add("atlas", "assets/pilot/" + model + "/" + resp.data.atlas, { type: "atlas" })
+                    .add("tex", "assets/pilot/" + model + "/" + resp.data.texture + ".png")
+                    .load(function (loader, res) {
+                        let spine = self.init_spine_data(res);
+                        self.mcv_spine = spine;
+                        self.mcv_now_animation = "idle";
+                        spine.state.setAnimation(0, "idle", true);
+                        spine.position.set(850, 1000);
+                        self.clear_app_stage(app, spine);
+                        if ($("#mcv_spine canvas").length == 0) {
+                            self.set_spine_event(app, "mcv_spine");
+                            document.querySelector("#mcv_spine").appendChild(app.view);
+                        }
+                        self.mcv_spine.scale.set(self.now_mcv_scale);
+                        self.reset_pixi_view(app);
+                        app.loader.reset();
+                        PIXI.utils.clearTextureCache();
+                        self.mcv_loading = false;
+                        if (self.left_id != self.selected_pilot.ID) {
+                            self.suit_loading = true;
+                            self.start_suit_spine();
+                        }
+                    });
+            });
+        },
+        start_suit_spine() {
+            this.suit_spine = undefined;
+            if (!this.suit_data || this.selected_skin.MachineArmorModel1.length < 2) {
+                return;
+            }
+            this.suit_leg = fg_data.EquipLegData.find((x) => x.ID == this.selected_skin.MachineArmorModel1[1]);
+            this.suit_compare = this.get_hit_grade_compare();
+            let model = this.suit_leg.prefab;
+            let self = this;
+            let app = this.suit_spine_application;
+            axios.get("assets/pilot/" + model + "/spine.json").then((resp) => {
+                app.loader
+                    .add("spine", "assets/pilot/" + model + "/" + resp.data.skel, { xhrType: "arraybuffer" })
+                    .add("atlas", "assets/pilot/" + model + "/" + resp.data.atlas, { type: "atlas" })
+                    .add("tex", "assets/pilot/" + model + "/" + resp.data.texture + ".png")
+                    .load(function (loader, res) {
+                        let spine = self.init_spine_data(res);
+                        self.suit_spine = spine;
+                        self.suit_now_animation = "idle";
+                        spine.state.setAnimation(0, "idle", true);
+                        spine.position.set(850, 1050);
+                        self.clear_app_stage(app, spine);
+                        if ($("#suit_spine canvas").length == 0) {
+                            self.set_spine_event(app, "suit_spine");
+                            document.querySelector("#suit_spine").appendChild(app.view);
+                        }
+                        self.suit_spine.scale.set(self.now_suit_scale);
+                        self.reset_pixi_view(app);
+                        app.loader.reset();
+                        PIXI.utils.clearTextureCache();
+                        self.suit_loading = false;
+                    });
+            });
+        },
+        get_suit_data() {
+            return fg_data.SuitData.find((x) => x.ID == this.selected_pilot.SuitID);
+        },
+        get_machine_armor_data() {
+            return [fg_data.MachineArmorData.find((x) => x.ID == this.suit_data.MachineArmorID)];
+        },
+        get_hit_grade_compare() {
+            let leg2 = fg_data.EquipLegData.find((x) => x.ID == fg_data.WidgetData.find((x) => x.ID == this.suit_data.SuitLegID[0]).Model);
+            return [leg2.components[0].HitGradeResist, this.suit_leg.components[0].HitGradeResist];
+        },
+        calc_hit_grade(value) {
+            return hit_grade.indexOf(value);
+        },
     },
 });
