@@ -318,7 +318,7 @@
         "TalentOpen": 10,
         "SpecialItem": 10501037,
         "SkillUp": [
-            5900001
+            5037001
         ],
         "ID": 37,
         "Name": null
@@ -462,7 +462,7 @@
         "TalentOpen": 10,
         "SpecialItem": 10501059,
         "SkillUp": [
-            5900001
+            5059001
         ],
         "ID": 59,
         "Name": null
@@ -669,7 +669,7 @@
         "TalentOpen": 10,
         "SpecialItem": 10501084,
         "SkillUp": [
-            5900001
+            5084001
         ],
         "ID": 84,
         "Name": null
@@ -951,6 +951,69 @@
             5056001
         ],
         "ID": 56,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501123,
+        "SkillUp": [
+            5123001
+        ],
+        "ID": 123,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501087,
+        "SkillUp": [
+            5087001
+        ],
+        "ID": 87,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501072,
+        "SkillUp": [
+            5072001
+        ],
+        "ID": 72,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501085,
+        "SkillUp": [
+            5085001
+        ],
+        "ID": 85,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501086,
+        "SkillUp": [
+            5086001
+        ],
+        "ID": 86,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501138,
+        "SkillUp": [
+            5138001
+        ],
+        "ID": 138,
+        "Name": null
+    },
+    {
+        "TalentOpen": 10,
+        "SpecialItem": 10501051,
+        "SkillUp": [
+            5051001
+        ],
+        "ID": 51,
         "Name": null
     }
 ]

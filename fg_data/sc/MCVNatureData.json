@@ -3708,5 +3708,250 @@
         "MaxLevel": 12,
         "ID": 530,
         "Name": null
+    },
+    {
+        "GirlID": 123,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 531,
+        "Name": null
+    },
+    {
+        "GirlID": 123,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 532,
+        "Name": null
+    },
+    {
+        "GirlID": 123,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 533,
+        "Name": null
+    },
+    {
+        "GirlID": 123,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 534,
+        "Name": null
+    },
+    {
+        "GirlID": 123,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 535,
+        "Name": null
+    },
+    {
+        "GirlID": 87,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 536,
+        "Name": null
+    },
+    {
+        "GirlID": 87,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 537,
+        "Name": null
+    },
+    {
+        "GirlID": 87,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 538,
+        "Name": null
+    },
+    {
+        "GirlID": 87,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 539,
+        "Name": null
+    },
+    {
+        "GirlID": 87,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 540,
+        "Name": null
+    },
+    {
+        "GirlID": 72,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 541,
+        "Name": null
+    },
+    {
+        "GirlID": 72,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 542,
+        "Name": null
+    },
+    {
+        "GirlID": 72,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 543,
+        "Name": null
+    },
+    {
+        "GirlID": 72,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 544,
+        "Name": null
+    },
+    {
+        "GirlID": 72,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 545,
+        "Name": null
+    },
+    {
+        "GirlID": 85,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 546,
+        "Name": null
+    },
+    {
+        "GirlID": 85,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 547,
+        "Name": null
+    },
+    {
+        "GirlID": 85,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 548,
+        "Name": null
+    },
+    {
+        "GirlID": 85,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 549,
+        "Name": null
+    },
+    {
+        "GirlID": 85,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 550,
+        "Name": null
+    },
+    {
+        "GirlID": 86,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 551,
+        "Name": null
+    },
+    {
+        "GirlID": 86,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 552,
+        "Name": null
+    },
+    {
+        "GirlID": 86,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 553,
+        "Name": null
+    },
+    {
+        "GirlID": 86,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 554,
+        "Name": null
+    },
+    {
+        "GirlID": 86,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 555,
+        "Name": null
+    },
+    {
+        "GirlID": 138,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 556,
+        "Name": null
+    },
+    {
+        "GirlID": 138,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 557,
+        "Name": null
+    },
+    {
+        "GirlID": 138,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 558,
+        "Name": null
+    },
+    {
+        "GirlID": 138,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 559,
+        "Name": null
+    },
+    {
+        "GirlID": 138,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 560,
+        "Name": null
+    },
+    {
+        "GirlID": 51,
+        "NatureID": 1,
+        "MaxLevel": 12,
+        "ID": 561,
+        "Name": null
+    },
+    {
+        "GirlID": 51,
+        "NatureID": 2,
+        "MaxLevel": 12,
+        "ID": 562,
+        "Name": null
+    },
+    {
+        "GirlID": 51,
+        "NatureID": 3,
+        "MaxLevel": 12,
+        "ID": 563,
+        "Name": null
+    },
+    {
+        "GirlID": 51,
+        "NatureID": 4,
+        "MaxLevel": 12,
+        "ID": 564,
+        "Name": null
+    },
+    {
+        "GirlID": 51,
+        "NatureID": 5,
+        "MaxLevel": 12,
+        "ID": 565,
+        "Name": null
     }
 ]

@@ -802,5 +802,17 @@
         "UiDesc": "",
         "ID": 134,
         "Name": "斩杀血线"
+    },
+    {
+        "DateType": "float",
+        "UiDesc": "",
+        "ID": 135,
+        "Name": "合体所需能量"
+    },
+    {
+        "DateType": "int",
+        "UiDesc": "",
+        "ID": 136,
+        "Name": "合体机持续时间"
     }
 ]

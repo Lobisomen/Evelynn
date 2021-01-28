@@ -6427,7 +6427,7 @@
             10501037,
             2
         ],
-        "SuitID": 0,
+        "SuitID": 303701,
         "BaseEquip1": [
             2100115,
             1,
@@ -8672,7 +8672,7 @@
             10501059,
             2
         ],
-        "SuitID": 0,
+        "SuitID": 305901,
         "BaseEquip1": [
             2100119,
             1,
@@ -9731,7 +9731,7 @@
             7
         ],
         "Marry": 1,
-        "WeddingDress": 0,
+        "WeddingDress": 15010067,
         "AffectionAttribute": {
             "keys": [
                 65
@@ -11888,7 +11888,7 @@
             10501084,
             2
         ],
-        "SuitID": 0,
+        "SuitID": 308401,
         "BaseEquip1": [
             2100116,
             1,
@@ -12249,7 +12249,7 @@
             7
         ],
         "Marry": 1,
-        "WeddingDress": 0,
+        "WeddingDress": 15010097,
         "AffectionAttribute": {
             "keys": [
                 54
@@ -13922,7 +13922,7 @@
             7
         ],
         "Marry": 1,
-        "WeddingDress": 0,
+        "WeddingDress": 15010089,
         "AffectionAttribute": {
             "keys": [
                 65
@@ -16045,7 +16045,7 @@
     },
     {
         "BasicSkin": 5601,
-        "BasicStarLevel": 3,
+        "BasicStarLevel": 4,
         "GirlQualityType": "UR",
         "ProfessionType": 4,
         "RepeatTransform": [
@@ -16169,12 +16169,8 @@
         "GirlID": [],
         "RepeatTransformUR": [
             [
-                11200005,
-                5
-            ],
-            [
-                10600000,
-                80
+                10100059,
+                25
             ]
         ],
         "ItemID2": 10500056,
@@ -16320,5 +16316,924 @@
         "URSkin": 8301,
         "ID": 83,
         "Name": "20268"
+    },
+    {
+        "BasicSkin": 12301,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SSR",
+        "ProfessionType": 1,
+        "RepeatTransform": [
+            [
+                11200004,
+                5
+            ],
+            [
+                10600000,
+                80
+            ]
+        ],
+        "RepeatTransform2": [
+            10501123,
+            10
+        ],
+        "FirstTransform": [
+            10501123,
+            2
+        ],
+        "SuitID": 312301,
+        "BaseEquip1": [
+            2100113,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100121,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100131,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100141,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 0.5849,
+        "FiveDimenBL": 0.6657,
+        "FiveDimenRN": 1.2093,
+        "FiveDimenFY": 1.0811,
+        "FiveDimenXY": 1.053,
+        "Birthday": "9.26",
+        "Constellation": "20778",
+        "BloodType": "O",
+        "Hobby": "20779",
+        "BirthLocal": "20780",
+        "OwnStory": "20781",
+        "EnglishName": "Sariel",
+        "GirlCamp": 5,
+        "GirlCampIcon": "Kegha",
+        "GirlHeight": "165cm",
+        "LikeThing": "20782",
+        "GirlHate": "20783",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 2,
+        "ChestRecommend": 9,
+        "LegRecommend": 14,
+        "BagRecommend": 19,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2123010,
+        "ExpertSkillEquip": 2123020,
+        "GirlGood": "突击武器专精;轻型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                20.8146,
+                2.381,
+                1.6505,
+                2.3711,
+                3.5135
+            ],
+            "propertys": null
+        },
+        "GirlJob": "20784",
+        "ItemID": 10500123,
+        "Age": 20,
+        "Gender": "2690",
+        "CV": "20785",
+        "Autobiography": "20786",
+        "FavoriteArticles": [
+            1,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                59
+            ],
+            "values": [
+                0.2
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 3,
+        "DefaultSkill": 9109,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 1.0,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [
+            [
+                11200005,
+                5
+            ],
+            [
+                10600000,
+                80
+            ]
+        ],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 123,
+        "Name": "20777"
+    },
+    {
+        "BasicSkin": 8701,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SSR",
+        "ProfessionType": 0,
+        "RepeatTransform": [
+            [
+                11200004,
+                5
+            ],
+            [
+                10600000,
+                80
+            ]
+        ],
+        "RepeatTransform2": [
+            10501087,
+            10
+        ],
+        "FirstTransform": [
+            10501087,
+            2
+        ],
+        "SuitID": 308701,
+        "BaseEquip1": [
+            2100111,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100123,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100133,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100143,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 1.0562,
+        "FiveDimenBL": 1.1091,
+        "FiveDimenRN": 1.3702,
+        "FiveDimenFY": 0.7913,
+        "FiveDimenXY": 1.0255,
+        "Birthday": "1.15",
+        "Constellation": "21394",
+        "BloodType": "B",
+        "Hobby": "21395",
+        "BirthLocal": "21396",
+        "OwnStory": "21397",
+        "EnglishName": "Leangle",
+        "GirlCamp": 4,
+        "GirlCampIcon": "Arita",
+        "GirlHeight": "165cm",
+        "LikeThing": "21398",
+        "GirlHate": "21399",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 0,
+        "ChestRecommend": 11,
+        "LegRecommend": 16,
+        "BagRecommend": 21,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2087010,
+        "ExpertSkillEquip": 2087020,
+        "GirlGood": "壁垒武器专精;重型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                22.1021,
+                2.6316,
+                1.6505,
+                1.6505,
+                1.6279
+            ],
+            "propertys": null
+        },
+        "GirlJob": "21400",
+        "ItemID": 10500087,
+        "Age": 20,
+        "Gender": "2690",
+        "CV": "21401",
+        "Autobiography": "21402",
+        "FavoriteArticles": [
+            5,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                23
+            ],
+            "values": [
+                0.15
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 4,
+        "DefaultSkill": 9110,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 0.3,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 87,
+        "Name": "21393"
+    },
+    {
+        "BasicSkin": 7201,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SR",
+        "ProfessionType": 2,
+        "RepeatTransform": [
+            [
+                11200003,
+                5
+            ],
+            [
+                10600000,
+                25
+            ]
+        ],
+        "RepeatTransform2": [
+            10501072,
+            10
+        ],
+        "FirstTransform": [
+            10501072,
+            2
+        ],
+        "SuitID": 307201,
+        "BaseEquip1": [
+            2100115,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100122,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100132,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100142,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 1.158,
+        "FiveDimenBL": 1.2724,
+        "FiveDimenRN": 0.6529,
+        "FiveDimenFY": 0.4859,
+        "FiveDimenXY": 0.305,
+        "Birthday": "3.20",
+        "Constellation": "21420",
+        "BloodType": "A",
+        "Hobby": "21421",
+        "BirthLocal": "21422",
+        "OwnStory": "21423",
+        "EnglishName": "Garren",
+        "GirlCamp": 4,
+        "GirlCampIcon": "Arita",
+        "GirlHeight": "150cm",
+        "LikeThing": "21424",
+        "GirlHate": "21425",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 4,
+        "ChestRecommend": 10,
+        "LegRecommend": 15,
+        "BagRecommend": 20,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2072010,
+        "ExpertSkillEquip": 2072020,
+        "GirlGood": "机枪武器专精;中型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                20.8146,
+                2.381,
+                1.6505,
+                2.3711,
+                3.5135
+            ],
+            "propertys": null
+        },
+        "GirlJob": "21426",
+        "ItemID": 10500072,
+        "Age": 20,
+        "Gender": "2690",
+        "CV": "21427",
+        "Autobiography": "21428",
+        "FavoriteArticles": [
+            4,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                59
+            ],
+            "values": [
+                0.2
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 2,
+        "DefaultSkill": 9111,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 0.3,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 72,
+        "Name": "21419"
+    },
+    {
+        "BasicSkin": 8501,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SR",
+        "ProfessionType": 1,
+        "RepeatTransform": [
+            [
+                11200003,
+                5
+            ],
+            [
+                10600000,
+                25
+            ]
+        ],
+        "RepeatTransform2": [
+            10501085,
+            10
+        ],
+        "FirstTransform": [
+            10501085,
+            2
+        ],
+        "SuitID": 308501,
+        "BaseEquip1": [
+            2100113,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100121,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100131,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100141,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 0.9858,
+        "FiveDimenBL": 1.0905,
+        "FiveDimenRN": 0.8332,
+        "FiveDimenFY": 0.4669,
+        "FiveDimenXY": 0.3697,
+        "Birthday": "7.30",
+        "Constellation": "21446",
+        "BloodType": "A",
+        "Hobby": "21447",
+        "BirthLocal": "21448",
+        "OwnStory": "21449",
+        "EnglishName": "Blade",
+        "GirlCamp": 4,
+        "GirlCampIcon": "Arita",
+        "GirlHeight": "170cm",
+        "LikeThing": "21450",
+        "GirlHate": "21451",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 2,
+        "ChestRecommend": 9,
+        "LegRecommend": 14,
+        "BagRecommend": 19,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2085010,
+        "ExpertSkillEquip": 2085020,
+        "GirlGood": "突击武器专精;轻型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                20.8146,
+                2.381,
+                1.6505,
+                2.3711,
+                3.5135
+            ],
+            "propertys": null
+        },
+        "GirlJob": "21452",
+        "ItemID": 10500085,
+        "Age": 20,
+        "Gender": "2690",
+        "CV": "21453",
+        "Autobiography": "21454",
+        "FavoriteArticles": [
+            3,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                59
+            ],
+            "values": [
+                0.2
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 3,
+        "DefaultSkill": 9112,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 0.3,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 85,
+        "Name": "21445"
+    },
+    {
+        "BasicSkin": 8601,
+        "BasicStarLevel": 2,
+        "GirlQualityType": "R",
+        "ProfessionType": 3,
+        "RepeatTransform": [
+            [
+                11200002,
+                5
+            ],
+            [
+                10600000,
+                10
+            ]
+        ],
+        "RepeatTransform2": [
+            10501086,
+            10
+        ],
+        "FirstTransform": [
+            10501086,
+            2
+        ],
+        "SuitID": 308601,
+        "BaseEquip1": [
+            2100118,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100122,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100132,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100142,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 1.333,
+        "FiveDimenBL": 1.4611,
+        "FiveDimenRN": 0.498,
+        "FiveDimenFY": 0.8894,
+        "FiveDimenXY": 0.3773,
+        "Birthday": "9.12",
+        "Constellation": "21472",
+        "BloodType": "B",
+        "Hobby": "21473",
+        "BirthLocal": "21474",
+        "OwnStory": "21475",
+        "EnglishName": "Chalice",
+        "GirlCamp": 4,
+        "GirlCampIcon": "Arita",
+        "GirlHeight": "160cm",
+        "LikeThing": "21476",
+        "GirlHate": "21477",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 7,
+        "ChestRecommend": 10,
+        "LegRecommend": 15,
+        "BagRecommend": 20,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2086010,
+        "ExpertSkillEquip": 2086020,
+        "GirlGood": "火炮武器专精;中型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                20.8146,
+                2.381,
+                2.3711,
+                1.6505,
+                3.5135
+            ],
+            "propertys": null
+        },
+        "GirlJob": "21478",
+        "ItemID": 10500086,
+        "Age": 20,
+        "Gender": "2690",
+        "CV": "21479",
+        "Autobiography": "21480",
+        "FavoriteArticles": [
+            2,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                23
+            ],
+            "values": [
+                0.15
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 5,
+        "DefaultSkill": 9113,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 0.3,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 86,
+        "Name": "21471"
+    },
+    {
+        "BasicSkin": 13801,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SSR",
+        "ProfessionType": 4,
+        "RepeatTransform": [
+            [
+                11200004,
+                5
+            ],
+            [
+                10600000,
+                80
+            ]
+        ],
+        "RepeatTransform2": [
+            10501138,
+            10
+        ],
+        "FirstTransform": [
+            10501138,
+            2
+        ],
+        "SuitID": 313801,
+        "BaseEquip1": [
+            2100117,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100123,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100133,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100143,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 0.7494,
+        "FiveDimenBL": 0.6502,
+        "FiveDimenRN": 0.7213,
+        "FiveDimenFY": 0.4396,
+        "FiveDimenXY": 1.2327,
+        "Birthday": "8.3",
+        "Constellation": "23338",
+        "BloodType": "AB",
+        "Hobby": "23339",
+        "BirthLocal": "23340",
+        "OwnStory": "23341",
+        "EnglishName": "Mirabelle·Decory",
+        "GirlCamp": 4,
+        "GirlCampIcon": "Arita",
+        "GirlHeight": "160cm",
+        "LikeThing": "23342",
+        "GirlHate": "23343",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 6,
+        "ChestRecommend": 9,
+        "LegRecommend": 14,
+        "BagRecommend": 19,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2138010,
+        "ExpertSkillEquip": 2138020,
+        "GirlGood": "狙击武器专精;轻型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                22.1021,
+                2.6316,
+                1.6505,
+                1.6505,
+                1.6279
+            ],
+            "propertys": null
+        },
+        "GirlJob": "23344",
+        "ItemID": 10500138,
+        "Age": 24,
+        "Gender": "2690",
+        "CV": "23345",
+        "Autobiography": "23346",
+        "FavoriteArticles": [
+            3,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                59
+            ],
+            "values": [
+                0.2
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 3,
+        "DefaultSkill": 9118,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 0.3,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 138,
+        "Name": "23337"
+    },
+    {
+        "BasicSkin": 5101,
+        "BasicStarLevel": 3,
+        "GirlQualityType": "SSR",
+        "ProfessionType": 1,
+        "RepeatTransform": [
+            [
+                11200004,
+                5
+            ],
+            [
+                10600000,
+                80
+            ]
+        ],
+        "RepeatTransform2": [
+            10501051,
+            10
+        ],
+        "FirstTransform": [
+            10501051,
+            2
+        ],
+        "SuitID": 305101,
+        "BaseEquip1": [
+            2100113,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip2": [
+            2100121,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip3": [
+            2100131,
+            1,
+            1,
+            0
+        ],
+        "BaseEquip4": [
+            2100141,
+            1,
+            1,
+            0
+        ],
+        "FiveDimenJR": 0.6733,
+        "FiveDimenBL": 0.6432,
+        "FiveDimenRN": 0.7576,
+        "FiveDimenFY": 0.8345,
+        "FiveDimenXY": 1.3194,
+        "Birthday": "11.11",
+        "Constellation": "23364",
+        "BloodType": "O",
+        "Hobby": "23365",
+        "BirthLocal": "23366",
+        "OwnStory": "23367",
+        "EnglishName": "Coral",
+        "GirlCamp": 0,
+        "GirlCampIcon": "Blacark",
+        "GirlHeight": "167cm",
+        "LikeThing": "23368",
+        "GirlHate": "23369",
+        "GoodwillSkill": [],
+        "WeaponRecommend": 2,
+        "ChestRecommend": 9,
+        "LegRecommend": 14,
+        "BagRecommend": 19,
+        "BigTech": [
+            2
+        ],
+        "BigGev": 4,
+        "ExpertSkillWeapeon": 2051010,
+        "ExpertSkillEquip": 2051020,
+        "GirlGood": "突击武器专精;轻型部件专精",
+        "GirlChangePara": {
+            "keys": [
+                83,
+                84,
+                85,
+                86,
+                87
+            ],
+            "values": [
+                22.1021,
+                2.6316,
+                1.6505,
+                1.6505,
+                1.6279
+            ],
+            "propertys": null
+        },
+        "GirlJob": "23370",
+        "ItemID": 10500051,
+        "Age": 675,
+        "Gender": "2690",
+        "CV": "23371",
+        "Autobiography": "23372",
+        "FavoriteArticles": [
+            5,
+            7
+        ],
+        "Marry": 1,
+        "WeddingDress": 0,
+        "AffectionAttribute": {
+            "keys": [
+                65
+            ],
+            "values": [
+                0.1
+            ],
+            "propertys": null
+        },
+        "BirthdayGift": [
+            0
+        ],
+        "MainNature": 5,
+        "DefaultSkill": 9119,
+        "EnergyLimit": 1000,
+        "MCVSpeed": 1.0,
+        "MCVChat1": 1,
+        "GirlID": [],
+        "RepeatTransformUR": [],
+        "ItemID2": 0,
+        "URSkin": 0,
+        "ID": 51,
+        "Name": "23363"
     }
 ]

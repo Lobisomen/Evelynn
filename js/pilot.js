@@ -546,6 +546,7 @@ var app = new Vue({
                         spine.state.setAnimation(0, "idle", true);
                         spine.position.set(850, 1050);
                         self.clear_app_stage(app, spine);
+						console.log(spine)
                         if ($("#suit_spine canvas").length == 0) {
                             self.set_spine_event(app, "suit_spine");
                             document.querySelector("#suit_spine").appendChild(app.view);

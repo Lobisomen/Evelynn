@@ -437,8 +437,8 @@
                         <div class="suit">
                             <span>一体机数据</span>
                             <div style="display: flex; flex-flow: column; padding-left: 5px;" v-for="armor_data in get_machine_armor_data()">
-                                <span v-if="armor_data.DistanceType != 1">弹匣容量：{{armor_data.Clip}}</span>
-                                <span v-if="armor_data.ReloadType == 1">换弹时间：{{armor_data.ReloadTime / 1000.0}}s</span>
+                                <span v-if="armor_data.Clip != 9999">弹匣容量：{{armor_data.Clip}}</span>
+                                <span v-if="armor_data.ReloadType != 0">换弹时间：{{armor_data.ReloadTime / 1000.0}}s</span>
                                 <span>攻击速度：{{armor_data.WeaponSpeed}}次/s</span>
                                 <span>单发回蓝：{{Number(armor_data.Trigger).toFixed(4) * 200}}</span>
                                 <span>武器倍率：{{Number(armor_data.BulletlAggRatio[0] * 100).toFixed(2)}}%</span>

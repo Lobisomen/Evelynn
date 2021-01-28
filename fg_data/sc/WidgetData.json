@@ -20289,6 +20289,246 @@
         "Name": "8124"
     },
     {
+        "WidgetSN": "8293",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "片手武器",
+        "SuitID": 302101,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.0,
+        "Trigger": 1.0,
+        "BulletlAggRatio": [
+            0.63
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "8381",
+        "Model": 21000330,
+        "Icon": "Parts_Arm_000330",
+        "Icon_Large": "L_Arm_000330",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2302112,
+        "ID": 230211202,
+        "Name": "8121"
+    },
+    {
+        "WidgetSN": "8294",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 302101,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "8382",
+        "Model": 24000330,
+        "Icon": "Parts_Body_000330",
+        "Icon_Large": "L_Body_000330",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            4
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2302122,
+        "ID": 230212202,
+        "Name": "8122"
+    },
+    {
+        "WidgetSN": "8295",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 302101,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "8383",
+        "Model": 23000330,
+        "Icon": "Parts_Leg_000330",
+        "Icon_Large": "L_Leg_000330",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            4
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2302132,
+        "ID": 230213202,
+        "Name": "8123"
+    },
+    {
+        "WidgetSN": "8296",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 302101,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "8384",
+        "Model": 22000330,
+        "Icon": "Parts_Bag_000330",
+        "Icon_Large": "L_Bag_000330",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            4
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2302142,
+        "ID": 230214202,
+        "Name": "8124"
+    },
+    {
         "WidgetSN": "2314",
         "WidgetCamp": "NoGenera",
         "EquipType": "None",
@@ -25809,6 +26049,246 @@
         "SuitType": 3,
         "WidgetIntroID": 2306842,
         "ID": 230684201,
+        "Name": "9054"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "None",
+        "EquipSubType": "火炮武器",
+        "SuitID": 306801,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 5,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 3249,
+        "ReloadRecover": 5,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.72,
+        "Trigger": 1.39,
+        "BulletlAggRatio": [
+            0.51
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11694",
+        "Model": 21000420,
+        "Icon": "Parts_Arm_000420",
+        "Icon_Large": "L_Arm_000420",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2306818,
+        "ID": 230681802,
+        "Name": "9051"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 306801,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11695",
+        "Model": 24000420,
+        "Icon": "Parts_Body_000420",
+        "Icon_Large": "L_Body_000420",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2306822,
+        "ID": 230682202,
+        "Name": "9052"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 306801,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11696",
+        "Model": 23000420,
+        "Icon": "Parts_Leg_000420",
+        "Icon_Large": "L_Leg_000420",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2306832,
+        "ID": 230683202,
+        "Name": "9053"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 306801,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11697",
+        "Model": 22000420,
+        "Icon": "Parts_Bag_000420",
+        "Icon_Large": "L_Bag_000420",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2306842,
+        "ID": 230684202,
         "Name": "9054"
     },
     {
@@ -33283,6 +33763,246 @@
         "Name": "11688"
     },
     {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 308101,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 1332,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 3.01,
+        "Trigger": 0.33,
+        "BulletlAggRatio": [
+            0.27
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11690",
+        "Model": 21000390,
+        "Icon": "Parts_Arm_000390",
+        "Icon_Large": "L_Arm_000390",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308113,
+        "ID": 230811302,
+        "Name": "11685"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308101,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11691",
+        "Model": 24000390,
+        "Icon": "Parts_Body_000390",
+        "Icon_Large": "L_Body_000390",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308121,
+        "ID": 230812102,
+        "Name": "11686"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308101,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11692",
+        "Model": 23000390,
+        "Icon": "Parts_Leg_000390",
+        "Icon_Large": "L_Leg_000390",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308131,
+        "ID": 230813102,
+        "Name": "11687"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308101,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "11693",
+        "Model": 22000390,
+        "Icon": "Parts_Bag_000390",
+        "Icon_Large": "L_Bag_000390",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308141,
+        "ID": 230814102,
+        "Name": "11688"
+    },
+    {
         "WidgetSN": "ARDCZ71",
         "WidgetCamp": "Arita",
         "EquipType": "None",
@@ -35720,6 +36440,246 @@
     },
     {
         "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "壁垒武器",
+        "SuitID": 311601,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.5,
+        "Trigger": 1.34,
+        "BulletlAggRatio": [
+            0.44
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15567",
+        "Model": 21000600,
+        "Icon": "Parts_Arm_000600",
+        "Icon_Large": "L_Arm_000600",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311612,
+        "ID": 231161202,
+        "Name": "15563"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 311601,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15568",
+        "Model": 24000600,
+        "Icon": "Parts_Body_000600",
+        "Icon_Large": "L_Body_000600",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311623,
+        "ID": 231162302,
+        "Name": "15564"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 311601,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15569",
+        "Model": 23000600,
+        "Icon": "Parts_Leg_000600",
+        "Icon_Large": "L_Leg_000600",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311633,
+        "ID": 231163302,
+        "Name": "15565"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 311601,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15570",
+        "Model": 22000600,
+        "Icon": "Parts_Bag_000600",
+        "Icon_Large": "L_Bag_000600",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311643,
+        "ID": 231164302,
+        "Name": "15566"
+    },
+    {
+        "WidgetSN": "8133",
         "WidgetCamp": "NoGenera",
         "EquipType": "None",
         "EquipSubType": "狙击武器",
@@ -35888,6 +36848,246 @@
         "SuitType": 3,
         "WidgetIntroID": 2311704,
         "ID": 231170401,
+        "Name": "15680"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "None",
+        "EquipSubType": "狙击武器",
+        "SuitID": 311701,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "后排",
+        "Clip": 6,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1000,
+        "ReloadRecover": 6,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.0,
+        "Trigger": 0.48,
+        "BulletlAggRatio": [
+            0.5
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15683",
+        "Model": 21000610,
+        "Icon": "Parts_Arm_000610",
+        "Icon_Large": "L_Arm_000610",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311701,
+        "ID": 231170102,
+        "Name": "15677"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 311701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15684",
+        "Model": 24000610,
+        "Icon": "Parts_Body_000610",
+        "Icon_Large": "L_Body_000610",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311702,
+        "ID": 231170202,
+        "Name": "15678"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 311701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15685",
+        "Model": 23000610,
+        "Icon": "Parts_Leg_000610",
+        "Icon_Large": "L_Leg_000610",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311703,
+        "ID": 231170302,
+        "Name": "15679"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 311701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "15686",
+        "Model": 22000610,
+        "Icon": "Parts_Bag_000610",
+        "Icon_Large": "L_Bag_000610",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2311704,
+        "ID": 231170402,
         "Name": "15680"
     },
     {
@@ -39095,7 +40295,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "None",
         "EquipSubType": "投射武器",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "后排",
@@ -39138,7 +40338,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Body",
         "EquipSubType": "重型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39181,7 +40381,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Pilot",
         "EquipSubType": "重型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39224,7 +40424,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Arm",
         "EquipSubType": "重型输出挂载",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39267,7 +40467,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "None",
         "EquipSubType": "投射武器",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "后排",
@@ -39310,7 +40510,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Body",
         "EquipSubType": "重型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39353,7 +40553,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Pilot",
         "EquipSubType": "重型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39396,7 +40596,7 @@
         "WidgetCamp": "Arita",
         "EquipType": "Arm",
         "EquipSubType": "重型输出挂载",
-        "SuitID": 0,
+        "SuitID": 309501,
         "WeightType": "重",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39783,7 +40983,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "None",
         "EquipSubType": "狙击武器",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "后排",
@@ -39826,7 +41026,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Body",
         "EquipSubType": "轻型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39869,7 +41069,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Pilot",
         "EquipSubType": "轻型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39912,7 +41112,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Arm",
         "EquipSubType": "轻型输出挂载",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -39955,7 +41155,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "None",
         "EquipSubType": "狙击武器",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "后排",
@@ -39985,9 +41185,26 @@
         "WidgetArea": [
             0
         ],
-        "PropertyType": 3,
-        "PropertyPara1": "",
-        "PropertyPara2": [],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                640.0
+            ],
+            [
+                44.0,
+                1000.0
+            ],
+            [
+                27.0,
+                0.12
+            ],
+            [
+                65.0,
+                0.08
+            ]
+        ],
         "SuitType": 3,
         "WidgetIntroID": 2305601,
         "ID": 230560101,
@@ -39998,7 +41215,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Body",
         "EquipSubType": "轻型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40028,9 +41245,26 @@
         "WidgetArea": [
             0
         ],
-        "PropertyType": 3,
-        "PropertyPara1": "",
-        "PropertyPara2": [],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                640.0
+            ],
+            [
+                44.0,
+                1000.0
+            ],
+            [
+                23.0,
+                0.12
+            ],
+            [
+                68.0,
+                0.08
+            ]
+        ],
         "SuitType": 3,
         "WidgetIntroID": 2305602,
         "ID": 230560201,
@@ -40041,7 +41275,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Pilot",
         "EquipSubType": "轻型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40071,9 +41305,26 @@
         "WidgetArea": [
             0
         ],
-        "PropertyType": 3,
-        "PropertyPara1": "",
-        "PropertyPara2": [],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                640.0
+            ],
+            [
+                44.0,
+                1000.0
+            ],
+            [
+                23.0,
+                0.12
+            ],
+            [
+                52.0,
+                0.08
+            ]
+        ],
         "SuitType": 3,
         "WidgetIntroID": 2305603,
         "ID": 230560301,
@@ -40084,7 +41335,7 @@
         "WidgetCamp": "Kegha",
         "EquipType": "Arm",
         "EquipSubType": "轻型输出挂载",
-        "SuitID": 0,
+        "SuitID": 305601,
         "WeightType": "轻",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40114,9 +41365,26 @@
         "WidgetArea": [
             0
         ],
-        "PropertyType": 3,
-        "PropertyPara1": "",
-        "PropertyPara2": [],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                640.0
+            ],
+            [
+                44.0,
+                1000.0
+            ],
+            [
+                27.0,
+                0.12
+            ],
+            [
+                65.0,
+                0.08
+            ]
+        ],
         "SuitType": 3,
         "WidgetIntroID": 2305604,
         "ID": 230560401,
@@ -40127,7 +41395,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "None",
         "EquipSubType": "火炮武器",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "中排",
@@ -40170,7 +41438,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Body",
         "EquipSubType": "中型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40213,7 +41481,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Pilot",
         "EquipSubType": "中型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40256,7 +41524,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Arm",
         "EquipSubType": "中型输出挂载",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40299,7 +41567,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "None",
         "EquipSubType": "火炮武器",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "无",
         "FeatureSkill": [],
         "DistanceType": "中排",
@@ -40342,7 +41610,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Body",
         "EquipSubType": "中型输出胸甲",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40385,7 +41653,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Pilot",
         "EquipSubType": "中型输出腿甲",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40428,7 +41696,7 @@
         "WidgetCamp": "Haxel",
         "EquipType": "Arm",
         "EquipSubType": "中型输出挂载",
-        "SuitID": 0,
+        "SuitID": 308301,
         "WeightType": "中",
         "FeatureSkill": [],
         "DistanceType": "无",
@@ -40465,5 +41733,3737 @@
         "WidgetIntroID": 2308304,
         "ID": 230830401,
         "Name": "20284"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 312301,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 5.88,
+        "Trigger": 0.34,
+        "BulletlAggRatio": [
+            0.11
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20788",
+        "Model": 21000790,
+        "Icon": "Parts_Arm_000790",
+        "Icon_Large": "L_Arm_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312301,
+        "ID": 2312301,
+        "Name": "20787"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20790",
+        "Model": 24000790,
+        "Icon": "Parts_Body_000790",
+        "Icon_Large": "L_Body_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312302,
+        "ID": 2312302,
+        "Name": "20789"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20792",
+        "Model": 23000790,
+        "Icon": "Parts_Leg_000790",
+        "Icon_Large": "L_Leg_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312303,
+        "ID": 2312303,
+        "Name": "20791"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20794",
+        "Model": 22000790,
+        "Icon": "Parts_Bag_000790",
+        "Icon_Large": "L_Bag_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312304,
+        "ID": 2312304,
+        "Name": "20793"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 312301,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 5.88,
+        "Trigger": 0.34,
+        "BulletlAggRatio": [
+            0.11
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20788",
+        "Model": 21000790,
+        "Icon": "Parts_Arm_000790",
+        "Icon_Large": "L_Arm_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312301,
+        "ID": 231230101,
+        "Name": "20787"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20790",
+        "Model": 24000790,
+        "Icon": "Parts_Body_000790",
+        "Icon_Large": "L_Body_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312302,
+        "ID": 231230201,
+        "Name": "20789"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20792",
+        "Model": 23000790,
+        "Icon": "Parts_Leg_000790",
+        "Icon_Large": "L_Leg_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312303,
+        "ID": 231230301,
+        "Name": "20791"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 312301,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20794",
+        "Model": 22000790,
+        "Icon": "Parts_Bag_000790",
+        "Icon_Large": "L_Bag_000790",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2312304,
+        "ID": 231230401,
+        "Name": "20793"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "None",
+        "EquipSubType": "投射武器",
+        "SuitID": 305901,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "后排",
+        "Clip": 6,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 1200,
+        "ReloadRecover": 6,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.13,
+        "Trigger": 1.76,
+        "BulletlAggRatio": [
+            0.44
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20997",
+        "Model": 21000360,
+        "Icon": "Parts_Arm_000360",
+        "Icon_Large": "L_Arm_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305901,
+        "ID": 2305901,
+        "Name": "20996"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20999",
+        "Model": 24000360,
+        "Icon": "Parts_Body_000360",
+        "Icon_Large": "L_Body_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305902,
+        "ID": 2305902,
+        "Name": "20998"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21001",
+        "Model": 23000360,
+        "Icon": "Parts_Leg_000360",
+        "Icon_Large": "L_Leg_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305903,
+        "ID": 2305903,
+        "Name": "21000"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21003",
+        "Model": 22000360,
+        "Icon": "Parts_Bag_000360",
+        "Icon_Large": "L_Bag_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305904,
+        "ID": 2305904,
+        "Name": "21002"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "None",
+        "EquipSubType": "投射武器",
+        "SuitID": 305901,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "后排",
+        "Clip": 6,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 1200,
+        "ReloadRecover": 6,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.13,
+        "Trigger": 1.76,
+        "BulletlAggRatio": [
+            0.44
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20997",
+        "Model": 21000360,
+        "Icon": "Parts_Arm_000360",
+        "Icon_Large": "L_Arm_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305901,
+        "ID": 230590101,
+        "Name": "20996"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "20999",
+        "Model": 24000360,
+        "Icon": "Parts_Body_000360",
+        "Icon_Large": "L_Body_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305902,
+        "ID": 230590201,
+        "Name": "20998"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21001",
+        "Model": 23000360,
+        "Icon": "Parts_Leg_000360",
+        "Icon_Large": "L_Leg_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305903,
+        "ID": 230590301,
+        "Name": "21000"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 305901,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21003",
+        "Model": 22000360,
+        "Icon": "Parts_Bag_000360",
+        "Icon_Large": "L_Bag_000360",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2305904,
+        "ID": 230590401,
+        "Name": "21002"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "壁垒武器",
+        "SuitID": 308701,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.0,
+        "Trigger": 2.0,
+        "BulletlAggRatio": [
+            0.69
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21404",
+        "Model": 21000730,
+        "Icon": "Parts_Arm_000730",
+        "Icon_Large": "L_Arm_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308701,
+        "ID": 2308701,
+        "Name": "21403"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21406",
+        "Model": 24000730,
+        "Icon": "Parts_Body_000730",
+        "Icon_Large": "L_Body_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308702,
+        "ID": 2308702,
+        "Name": "21405"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21408",
+        "Model": 23000730,
+        "Icon": "Parts_Leg_000730",
+        "Icon_Large": "L_Leg_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308703,
+        "ID": 2308703,
+        "Name": "21407"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21410",
+        "Model": 22000730,
+        "Icon": "Parts_Bag_000730",
+        "Icon_Large": "L_Bag_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308704,
+        "ID": 2308704,
+        "Name": "21409"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "壁垒武器",
+        "SuitID": 308701,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.0,
+        "Trigger": 2.0,
+        "BulletlAggRatio": [
+            0.69
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21404",
+        "Model": 21000730,
+        "Icon": "Parts_Arm_000730",
+        "Icon_Large": "L_Arm_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308701,
+        "ID": 230870101,
+        "Name": "21403"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "重型输出胸甲",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21406",
+        "Model": 24000730,
+        "Icon": "Parts_Body_000730",
+        "Icon_Large": "L_Body_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308702,
+        "ID": 230870201,
+        "Name": "21405"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "重型输出腿甲",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21408",
+        "Model": 23000730,
+        "Icon": "Parts_Leg_000730",
+        "Icon_Large": "L_Leg_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308703,
+        "ID": 230870301,
+        "Name": "21407"
+    },
+    {
+        "WidgetSN": "21497",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "重型输出挂载",
+        "SuitID": 308701,
+        "WeightType": "重",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21410",
+        "Model": 22000730,
+        "Icon": "Parts_Bag_000730",
+        "Icon_Large": "L_Bag_000730",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308704,
+        "ID": 230870401,
+        "Name": "21409"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "机枪武器",
+        "SuitID": 307201,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 150,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 2660,
+        "ReloadRecover": 150,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 8.37,
+        "Trigger": 0.24,
+        "BulletlAggRatio": [
+            0.12
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21430",
+        "Model": 21000700,
+        "Icon": "Parts_Arm_000700",
+        "Icon_Large": "L_Arm_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307201,
+        "ID": 2307201,
+        "Name": "21429"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21432",
+        "Model": 24000700,
+        "Icon": "Parts_Body_000700",
+        "Icon_Large": "L_Body_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307202,
+        "ID": 2307202,
+        "Name": "21431"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21434",
+        "Model": 23000700,
+        "Icon": "Parts_Leg_000700",
+        "Icon_Large": "L_Leg_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307203,
+        "ID": 2307203,
+        "Name": "21433"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21436",
+        "Model": 22000700,
+        "Icon": "Parts_Bag_000700",
+        "Icon_Large": "L_Bag_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307204,
+        "ID": 2307204,
+        "Name": "21435"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "机枪武器",
+        "SuitID": 307201,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 150,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 2660,
+        "ReloadRecover": 150,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 8.37,
+        "Trigger": 0.24,
+        "BulletlAggRatio": [
+            0.12
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21430",
+        "Model": 21000700,
+        "Icon": "Parts_Arm_000700",
+        "Icon_Large": "L_Arm_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307201,
+        "ID": 230720101,
+        "Name": "21429"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21432",
+        "Model": 24000700,
+        "Icon": "Parts_Body_000700",
+        "Icon_Large": "L_Body_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307202,
+        "ID": 230720201,
+        "Name": "21431"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21434",
+        "Model": 23000700,
+        "Icon": "Parts_Leg_000700",
+        "Icon_Large": "L_Leg_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307203,
+        "ID": 230720301,
+        "Name": "21433"
+    },
+    {
+        "WidgetSN": "21498",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 307201,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21436",
+        "Model": 22000700,
+        "Icon": "Parts_Bag_000700",
+        "Icon_Large": "L_Bag_000700",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307204,
+        "ID": 230720401,
+        "Name": "21435"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 308501,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.33,
+        "Trigger": 0.86,
+        "BulletlAggRatio": [
+            0.27
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21456",
+        "Model": 21000710,
+        "Icon": "Parts_Arm_000710",
+        "Icon_Large": "L_Arm_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308501,
+        "ID": 2308501,
+        "Name": "21455"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21458",
+        "Model": 24000710,
+        "Icon": "Parts_Body_000710",
+        "Icon_Large": "L_Body_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308502,
+        "ID": 2308502,
+        "Name": "21457"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21460",
+        "Model": 23000710,
+        "Icon": "Parts_Leg_000710",
+        "Icon_Large": "L_Leg_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308503,
+        "ID": 2308503,
+        "Name": "21459"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21462",
+        "Model": 22000710,
+        "Icon": "Parts_Bag_000710",
+        "Icon_Large": "L_Bag_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308504,
+        "ID": 2308504,
+        "Name": "21461"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 308501,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.33,
+        "Trigger": 0.86,
+        "BulletlAggRatio": [
+            0.27
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21456",
+        "Model": 21000710,
+        "Icon": "Parts_Arm_000710",
+        "Icon_Large": "L_Arm_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308501,
+        "ID": 230850101,
+        "Name": "21455"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21458",
+        "Model": 24000710,
+        "Icon": "Parts_Body_000710",
+        "Icon_Large": "L_Body_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308502,
+        "ID": 230850201,
+        "Name": "21457"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21460",
+        "Model": 23000710,
+        "Icon": "Parts_Leg_000710",
+        "Icon_Large": "L_Leg_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308503,
+        "ID": 230850301,
+        "Name": "21459"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21462",
+        "Model": 22000710,
+        "Icon": "Parts_Bag_000710",
+        "Icon_Large": "L_Bag_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308504,
+        "ID": 230850401,
+        "Name": "21461"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 308501,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.33,
+        "Trigger": 0.86,
+        "BulletlAggRatio": [
+            0.27
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21456",
+        "Model": 21000710,
+        "Icon": "Parts_Arm_000710",
+        "Icon_Large": "L_Arm_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                54.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308501,
+        "ID": 230850102,
+        "Name": "21455"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21458",
+        "Model": 24000710,
+        "Icon": "Parts_Body_000710",
+        "Icon_Large": "L_Body_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                32.0,
+                850.0
+            ],
+            [
+                68.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308502,
+        "ID": 230850202,
+        "Name": "21457"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21460",
+        "Model": 23000710,
+        "Icon": "Parts_Leg_000710",
+        "Icon_Large": "L_Leg_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                4200.0
+            ],
+            [
+                40.0,
+                850.0
+            ],
+            [
+                52.0,
+                0.075
+            ],
+            [
+                59.0,
+                0.15
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308503,
+        "ID": 230850302,
+        "Name": "21459"
+    },
+    {
+        "WidgetSN": "21499",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308501,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21462",
+        "Model": 22000710,
+        "Icon": "Parts_Bag_000710",
+        "Icon_Large": "L_Bag_000710",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                540.0
+            ],
+            [
+                44.0,
+                850.0
+            ],
+            [
+                27.0,
+                0.1
+            ],
+            [
+                65.0,
+                0.075
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308504,
+        "ID": 230850402,
+        "Name": "21461"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "火炮武器",
+        "SuitID": 308601,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 3,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1330,
+        "ReloadRecover": 3,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.95,
+        "Trigger": 2.1,
+        "BulletlAggRatio": [
+            0.53
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21482",
+        "Model": 21000720,
+        "Icon": "Parts_Arm_000720",
+        "Icon_Large": "L_Arm_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308601,
+        "ID": 2308601,
+        "Name": "21481"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21484",
+        "Model": 24000720,
+        "Icon": "Parts_Body_000720",
+        "Icon_Large": "L_Body_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308602,
+        "ID": 2308602,
+        "Name": "21483"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21486",
+        "Model": 23000720,
+        "Icon": "Parts_Leg_000720",
+        "Icon_Large": "L_Leg_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308603,
+        "ID": 2308603,
+        "Name": "21485"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21488",
+        "Model": 22000720,
+        "Icon": "Parts_Bag_000720",
+        "Icon_Large": "L_Bag_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308604,
+        "ID": 2308604,
+        "Name": "21487"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "火炮武器",
+        "SuitID": 308601,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 3,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1330,
+        "ReloadRecover": 3,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.95,
+        "Trigger": 2.1,
+        "BulletlAggRatio": [
+            0.53
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21482",
+        "Model": 21000720,
+        "Icon": "Parts_Arm_000720",
+        "Icon_Large": "L_Arm_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308601,
+        "ID": 230860101,
+        "Name": "21481"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21484",
+        "Model": 24000720,
+        "Icon": "Parts_Body_000720",
+        "Icon_Large": "L_Body_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308602,
+        "ID": 230860201,
+        "Name": "21483"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21486",
+        "Model": 23000720,
+        "Icon": "Parts_Leg_000720",
+        "Icon_Large": "L_Leg_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308603,
+        "ID": 230860301,
+        "Name": "21485"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21488",
+        "Model": 22000720,
+        "Icon": "Parts_Bag_000720",
+        "Icon_Large": "L_Bag_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308604,
+        "ID": 230860401,
+        "Name": "21487"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "火炮武器",
+        "SuitID": 308601,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 3,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1330,
+        "ReloadRecover": 3,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.95,
+        "Trigger": 2.1,
+        "BulletlAggRatio": [
+            0.53
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21482",
+        "Model": 21000720,
+        "Icon": "Parts_Arm_000720",
+        "Icon_Large": "L_Arm_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                480.0
+            ],
+            [
+                36.0,
+                560.0
+            ],
+            [
+                27.0,
+                0.05
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308601,
+        "ID": 230860102,
+        "Name": "21481"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21484",
+        "Model": 24000720,
+        "Icon": "Parts_Body_000720",
+        "Icon_Large": "L_Body_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                2700.0
+            ],
+            [
+                32.0,
+                560.0
+            ],
+            [
+                59.0,
+                0.1
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308602,
+        "ID": 230860202,
+        "Name": "21483"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21486",
+        "Model": 23000720,
+        "Icon": "Parts_Leg_000720",
+        "Icon_Large": "L_Leg_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                24.0,
+                2700.0
+            ],
+            [
+                32.0,
+                560.0
+            ],
+            [
+                59.0,
+                0.1
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308603,
+        "ID": 230860302,
+        "Name": "21485"
+    },
+    {
+        "WidgetSN": "21500",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 308601,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21488",
+        "Model": 22000720,
+        "Icon": "Parts_Bag_000720",
+        "Icon_Large": "L_Bag_000720",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "固定属性",
+        "PropertyPara1": "60,1,SR",
+        "PropertyPara2": [
+            [
+                28.0,
+                480.0
+            ],
+            [
+                36.0,
+                560.0
+            ],
+            [
+                54.0,
+                0.05
+            ]
+        ],
+        "SuitType": 3,
+        "WidgetIntroID": 2308604,
+        "ID": 230860402,
+        "Name": "21487"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "None",
+        "EquipSubType": "突击武器",
+        "SuitID": 0,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "前排",
+        "Clip": 9999,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 9999,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 1.0,
+        "Trigger": 2.0,
+        "BulletlAggRatio": [
+            1.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21482",
+        "Model": 21000830,
+        "Icon": "Parts_Arm_000830",
+        "Icon_Large": "L_Arm_000830",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307601,
+        "ID": 2307601,
+        "Name": "22432"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 0,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21484",
+        "Model": 24000830,
+        "Icon": "Parts_Body_000830",
+        "Icon_Large": "L_Body_000830",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307602,
+        "ID": 2307602,
+        "Name": "22434"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 0,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21486",
+        "Model": 23000830,
+        "Icon": "Parts_Leg_000830",
+        "Icon_Large": "L_Leg_000830",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307603,
+        "ID": 2307603,
+        "Name": "22435"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Kegha",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 0,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "21488",
+        "Model": 22000830,
+        "Icon": "Parts_Bag_000830",
+        "Icon_Large": "L_Bag_000830",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2307604,
+        "ID": 2307604,
+        "Name": "22433"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "None",
+        "EquipSubType": "冲锋武器",
+        "SuitID": 308401,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 30,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 2330,
+        "ReloadRecover": 30,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 4.92,
+        "Trigger": 0.4,
+        "BulletlAggRatio": [
+            0.2
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22531",
+        "Model": 21000800,
+        "Icon": "Parts_Arm_000800",
+        "Icon_Large": "L_Arm_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308401,
+        "ID": 2308401,
+        "Name": "22530"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22533",
+        "Model": 24000800,
+        "Icon": "Parts_Body_000800",
+        "Icon_Large": "L_Body_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308402,
+        "ID": 2308402,
+        "Name": "22532"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22687",
+        "Model": 23000800,
+        "Icon": "Parts_Leg_000800",
+        "Icon_Large": "L_Leg_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308403,
+        "ID": 2308403,
+        "Name": "22686"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22689",
+        "Model": 22000800,
+        "Icon": "Parts_Bag_000800",
+        "Icon_Large": "L_Bag_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308404,
+        "ID": 2308404,
+        "Name": "22688"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "None",
+        "EquipSubType": "冲锋武器",
+        "SuitID": 308401,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 30,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 2330,
+        "ReloadRecover": 30,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 4.92,
+        "Trigger": 0.4,
+        "BulletlAggRatio": [
+            0.2
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22531",
+        "Model": 21000800,
+        "Icon": "Parts_Arm_000800",
+        "Icon_Large": "L_Arm_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308401,
+        "ID": 230840101,
+        "Name": "22530"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22533",
+        "Model": 24000800,
+        "Icon": "Parts_Body_000800",
+        "Icon_Large": "L_Body_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308402,
+        "ID": 230840201,
+        "Name": "22532"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22687",
+        "Model": 23000800,
+        "Icon": "Parts_Leg_000800",
+        "Icon_Large": "L_Leg_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308403,
+        "ID": 230840301,
+        "Name": "22686"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Haxel",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 308401,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22689",
+        "Model": 22000800,
+        "Icon": "Parts_Bag_000800",
+        "Icon_Large": "L_Bag_000800",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2308404,
+        "ID": 230840401,
+        "Name": "22688"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "None",
+        "EquipSubType": "机枪武器",
+        "SuitID": 303701,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 20,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1170,
+        "ReloadRecover": 20,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.52,
+        "Trigger": 0.8,
+        "BulletlAggRatio": [
+            0.4
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22695",
+        "Model": 21000810,
+        "Icon": "Parts_Arm_000810",
+        "Icon_Large": "L_Arm_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303701,
+        "ID": 2303701,
+        "Name": "22694"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22697",
+        "Model": 24000810,
+        "Icon": "Parts_Body_000810",
+        "Icon_Large": "L_Body_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303702,
+        "ID": 2303702,
+        "Name": "22696"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22699",
+        "Model": 23000810,
+        "Icon": "Parts_Leg_000810",
+        "Icon_Large": "L_Leg_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303703,
+        "ID": 2303703,
+        "Name": "22698"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22701",
+        "Model": 22000810,
+        "Icon": "Parts_Bag_000810",
+        "Icon_Large": "L_Bag_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303704,
+        "ID": 2303704,
+        "Name": "22700"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "None",
+        "EquipSubType": "机枪武器",
+        "SuitID": 303701,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "中排",
+        "Clip": 20,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1170,
+        "ReloadRecover": 20,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 2.52,
+        "Trigger": 0.8,
+        "BulletlAggRatio": [
+            0.4
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22695",
+        "Model": 21000810,
+        "Icon": "Parts_Arm_000810",
+        "Icon_Large": "L_Arm_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303701,
+        "ID": 230370101,
+        "Name": "22694"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Body",
+        "EquipSubType": "中型输出胸甲",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22697",
+        "Model": 24000810,
+        "Icon": "Parts_Body_000810",
+        "Icon_Large": "L_Body_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303702,
+        "ID": 230370201,
+        "Name": "22696"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Pilot",
+        "EquipSubType": "中型输出腿甲",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22699",
+        "Model": 23000810,
+        "Icon": "Parts_Leg_000810",
+        "Icon_Large": "L_Leg_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303703,
+        "ID": 230370301,
+        "Name": "22698"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "NoGenera",
+        "EquipType": "Arm",
+        "EquipSubType": "中型输出挂载",
+        "SuitID": 303701,
+        "WeightType": "中",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "22701",
+        "Model": 22000810,
+        "Icon": "Parts_Bag_000810",
+        "Icon_Large": "L_Bag_000810",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2303704,
+        "ID": 230370401,
+        "Name": "22700"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "狙击武器",
+        "SuitID": 313801,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "后排",
+        "Clip": 3,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1660,
+        "ReloadRecover": 3,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.61,
+        "Trigger": 3.28,
+        "BulletlAggRatio": [
+            1.64
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23348",
+        "Model": 21000840,
+        "Icon": "Parts_Arm_000840",
+        "Icon_Large": "L_Arm_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313801,
+        "ID": 2313801,
+        "Name": "23347"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23350",
+        "Model": 24000840,
+        "Icon": "Parts_Body_000840",
+        "Icon_Large": "L_Body_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313802,
+        "ID": 2313802,
+        "Name": "23349"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23352",
+        "Model": 23000840,
+        "Icon": "Parts_Leg_000840",
+        "Icon_Large": "L_Leg_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313803,
+        "ID": 2313803,
+        "Name": "23351"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23354",
+        "Model": 22000840,
+        "Icon": "Parts_Bag_000840",
+        "Icon_Large": "L_Bag_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": "随机属性",
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313804,
+        "ID": 2313804,
+        "Name": "23353"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "None",
+        "EquipSubType": "狙击武器",
+        "SuitID": 313801,
+        "WeightType": "无",
+        "FeatureSkill": [],
+        "DistanceType": "后排",
+        "Clip": 3,
+        "ReloadType": "MisfireReload",
+        "ReloadTime": 1660,
+        "ReloadRecover": 3,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 1.0,
+        "WeaponSpeed": 0.61,
+        "Trigger": 3.28,
+        "BulletlAggRatio": [
+            1.64
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23348",
+        "Model": 21000840,
+        "Icon": "Parts_Arm_000840",
+        "Icon_Large": "L_Arm_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313801,
+        "ID": 231380101,
+        "Name": "23347"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Body",
+        "EquipSubType": "轻型输出胸甲",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23350",
+        "Model": 24000840,
+        "Icon": "Parts_Body_000840",
+        "Icon_Large": "L_Body_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313802,
+        "ID": 231380201,
+        "Name": "23349"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Pilot",
+        "EquipSubType": "轻型输出腿甲",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23352",
+        "Model": 23000840,
+        "Icon": "Parts_Leg_000840",
+        "Icon_Large": "L_Leg_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313803,
+        "ID": 231380301,
+        "Name": "23351"
+    },
+    {
+        "WidgetSN": "8133",
+        "WidgetCamp": "Arita",
+        "EquipType": "Arm",
+        "EquipSubType": "轻型输出挂载",
+        "SuitID": 313801,
+        "WeightType": "轻",
+        "FeatureSkill": [],
+        "DistanceType": "无",
+        "Clip": 0,
+        "ReloadType": "AutoReload",
+        "ReloadTime": 0,
+        "ReloadRecover": 0,
+        "AccumulatingTime": 0,
+        "ShootInterval": 0,
+        "AttackSpeed": 0.0,
+        "WeaponSpeed": 0.0,
+        "Trigger": 0.0,
+        "BulletlAggRatio": [
+            0.0
+        ],
+        "BulletAggValue": 0,
+        "InjuryAddEffectType": "无",
+        "InjuryAddEffectPara": [],
+        "Disc": "23354",
+        "Model": 22000840,
+        "Icon": "Parts_Bag_000840",
+        "Icon_Large": "L_Bag_000840",
+        "Background": "ItemBack",
+        "DropMonsterID": [
+            0
+        ],
+        "WidgetArea": [
+            0
+        ],
+        "PropertyType": 3,
+        "PropertyPara1": "",
+        "PropertyPara2": [],
+        "SuitType": 3,
+        "WidgetIntroID": 2313804,
+        "ID": 231380401,
+        "Name": "23353"
     }
 ]

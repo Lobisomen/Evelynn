@@ -172,12 +172,12 @@ Armor/Armor_000010/01_120
   orig: 144, 250
   offset: 0, 0
   index: -1
-Armor/Armor_000010/01_121
+Armor/Armor_000010/01_125
   rotate: false
-  xy: 2135, 397
-  size: 75, 76
-  orig: 106, 95
-  offset: 17, 6
+  xy: 2016, 1911
+  size: 188, 299
+  orig: 188, 299
+  offset: 0, 0
   index: -1
 Armor/Armor_000010/01_14
   rotate: false
@@ -786,12 +786,5 @@ Armor/Armor_000010/01_99
   xy: 1899, 229
   size: 107, 132
   orig: 107, 132
-  offset: 0, 0
-  index: -1
-Armor/Armor_000010/image/Armor/Armor_000011/01_125
-  rotate: false
-  xy: 2016, 1911
-  size: 188, 299
-  orig: 188, 299
   offset: 0, 0
   index: -1
