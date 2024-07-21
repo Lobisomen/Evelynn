@@ -107,14 +107,14 @@
     <body>
         <div id="fgPilot" v-loading="!loaded" style="max-width: 1000px;">
             <el-menu :default-active="now_index" class="el-menu-demo" mode="horizontal" @select="handle_select">
-                <el-menu-item index="mainpage">主页</el-menu-item>
-                <el-menu-item index="pilot">机师一览</el-menu-item>
+                <el-menu-item index="mainpage">Home</el-menu-item>
+                <el-menu-item index="pilot">Pilot List</el-menu-item>
             </el-menu>
-            <el-autocomplete v-model="search_input" style="margin-top: 10px; width: 100%;" placeholder="请输入机师名" :fetch-suggestions="query_pilot" @select="pilot_handle_select"></el-autocomplete>
+            <el-autocomplete v-model="search_input" style="margin-top: 10px; width: 100%;" placeholder="Please enter the pilot's name" :fetch-suggestions="query_pilot" @select="pilot_handle_select"></el-autocomplete>
             <div>
                 <el-button type="primary" style="width: 100%; margin-top: 10px;" @click="open_view = true"> 机师列表<i class="el-icon-arrow-down el-icon--right"></i> </el-button>
             </div>
-            <center v-if="!selected_pilot">本工具包含未实装内容，实际属性以实装后为准。</center>
+            <center v-if="!selected_pilot">This tool contains unimplemented content. The actual properties will be subject to implementation.</center>
             <el-card style="margin-top: 10px;" v-if="selected_pilot" v-loading="skin_loading">
                 <div slot="header" class="clearfix">
                     <span>皮肤</span>
